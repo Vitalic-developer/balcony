@@ -517,10 +517,13 @@ h5{
     margin-bottom: 50px;
 }
 .options ul li{
-    padding: 15px 20px;
+
     border: 1px solid #FCCF3C;
     border-radius: 10px;
     cursor: pointer;
+}
+.options ul li a{
+    padding: 15px 20px;
 }
 
 .examples{
@@ -716,9 +719,9 @@ h5{
     flex-wrap: wrap;
     row-gap: 20px;
 }
-.offers h4{
+.offers h3{
     margin-top: 50px;
-    width: 600px;
+    width: 880px;
 }
 .offers_img{
     display: flex;
