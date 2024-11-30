@@ -1,0 +1,42 @@
+@media (max-width: 960px){
+    .container{
+        width: 920px;
+    }
+    .header.container{
+        font-size: 16px;
+    }
+    .logo{
+        width: 140px;
+    }
+    .header_phone-btn button{
+        font-size: 20px;
+    }
+    .main_block{
+        background-position: -165px;
+    }
+    .service_block .container{
+        flex-direction: column-reverse;
+    }
+    .exp{
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        align-items: center;
+        margin-bottom: 55px;
+    }
+    .exp div{
+        margin-top: 0;
+    }
+    .exp h4{
+        max-width: 470px;
+    }
+    .exp span{
+        width: 225px;
+    }
+    .service_block ul{
+        max-width: 100%;
+    }
+    .service_block ul li{
+        max-width: 215px;
+    }
+}
