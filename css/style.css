@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
@@ -66,7 +67,12 @@ h5{
     color: #FCCF3C;
     transition: .2s;
 }
-
+.header-controls{
+    display: flex;
+}
+.burger{
+    display: none;
+}
 .header_phone-btn button {
     font-size: 24px;
     font-weight: 600;
@@ -77,9 +83,13 @@ h5{
     cursor: pointer;
     transition: .2s;
 }
+
 .header_phone-btn button:hover{
     background-color: #FFDE73;
     transition: .2s;
+}
+.header_phone-btn-adapt{
+    display: none;
 }
 .tittle_name{
     margin-top: 50px;
@@ -95,7 +105,6 @@ h5{
 }
 
 .main_block h1 {
-    font-size: 52px;
     font-weight: 700;
     padding-top: 196px;
     width: 600px;
@@ -138,7 +147,7 @@ h5{
 }
 .service_block ul li{
     background: #ffffff;
-    max-width: 290px;
+    width: 290px;
     padding: 10px 20px;
     border-radius: 8px;
     box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.2);
@@ -161,12 +170,19 @@ h5{
     padding-top: 20px;
     font-weight: 500;
 }
+.service_block ul .yellow_text{
+    display: none;
+}
+.yellow_text-adapt .yellow_text{
+    display: none;
+}
 .exp{
     max-width: 495px;
 }
 
 .exp div{
     display: flex;
+    column-gap: 90px;
     margin-top: 100px;
     color: #FCCF3C;
 }
@@ -182,7 +198,7 @@ h5{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
-    gap: 10px;
+    gap: 20px;
     padding-top: 30px;
 }
 .our_services-windows a{
@@ -200,25 +216,29 @@ h5{
 .our_services a:nth-child(1){
     grid-row: span 2;
     background: url("../img/services/service_card_big.jpg") no-repeat;
-    background-size: contain;
-    width: 392px;
+    background-size: cover;
+    width: 100%;
     height: 450px;
 }
 .our_services a:nth-child(2){
     background: url("../img/services/service_card.jpg") no-repeat;
-    background-size: contain;
+    background-size: cover;
+    width: 100%;
 }
 .our_services a:nth-child(3){
     background: url("../img/services/service_card (1).jpg") no-repeat;
-    background-size: contain;
+    background-size: cover;
+    width: 100%;
 }
 .our_services a:nth-child(4){
     background: url("../img/services/service_card (2).jpg") no-repeat;
-    background-size: contain;
+    background-size: cover;
+    width: 100%;
 }
 .our_services a:nth-child(5){
     background: url("../img/services/service_card (3).jpg") no-repeat;
-    background-size: contain;
+    background-size: cover;
+    width: 100%;
 }
 .promotion{
     margin-top: 100px;
@@ -247,11 +267,15 @@ h5{
 
 }
 .about_the_company-text{
-    max-width: 620px;
+    width: 620px;
     padding: 50px 33px 30px 20px;
     background-color: #ffffff;
     border-radius: 8px;
-
+}
+.about_the_company-img{
+    background: url("../img/viktor.jpg")no-repeat;
+    width: 598px;
+    height: 495px;
 }
 .about_the_company-text p{
     font-size: 20px;
@@ -289,12 +313,13 @@ h5{
 }
 .contacts.container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 .contacts form{
-    max-width: 700px;
+    width: 700px;
     background-color: #FFDE73;
     border-radius: 8px;
     padding: 40px 0 70px 20px;
@@ -356,7 +381,7 @@ h5{
 .customer_opinion ul li{
     background-color: #ffffff;
     padding: 20px;
-    max-width: 392px;
+    width: 392px;
     box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.2);
     border-radius: 8px;
 }
@@ -385,7 +410,9 @@ h5{
 .customer_opinion video{
     border-radius: 8px;
 }
-
+.footer_logo-adapt{
+    display: none;
+}
 .footer{
     background-color: #312E25;
     color: #ffffff;
@@ -399,6 +426,7 @@ h5{
 .footer h3{
     font-size: 36px;
     color: #FCCF3C;
+    padding-bottom: 10px;
 }
 .footer h4{
     color: #FCCF3C;
@@ -425,10 +453,25 @@ h5{
     border-radius: 10px;
     transition: .2s;
 }
-.footer_btn:hover{
+.footer_btn:hover,
+.footer_btn-adapt:hover{
     background-color: #ffde73;
     transition: .2s;
 }
+
+.footer_btn-adapt{
+    display: none;
+    padding: 15px 66px;
+    background-color: #FCCF3C;
+    color: #171717;
+    border-radius: 10px;
+    transition: .2s;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+
 .copyright_field{
     margin-top: 110px;
     display: flex;
@@ -441,18 +484,23 @@ h5{
 
 /*Окна и рамы*/
 
-
+.headline{
+    display: none;
+}
 .finishing{
     margin-top: 55px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
 }
 .finishing_text{
-    max-width: 550px;
+    width: 550px;
 }
 .finishing_img{
-    max-width: 600px;
+    width: 600px;
     border-radius: 8px;
+    background: url("../img/finishing.jpg")no-repeat 70px 0;
+    background-size: cover;
 }
 .finishing p{
     padding-top: 20px;
@@ -471,6 +519,9 @@ h5{
 }
 .finishing .black-btn{
     margin-top: 40px;
+}
+.finishing_btn .black-btn{
+    display: none;
 }
 .execution{
     padding-top: 50px;
@@ -894,6 +945,29 @@ h5{
     background-color: #FFDE73;
     color: #000000;
 }
+.manufacturers_logo-slider{
+    display: none;
+    overflow: hidden;
+}
+.swiper-container {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    height: auto;
+}
+
+.swiper-slide img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 
 

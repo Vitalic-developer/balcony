@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
     <title>Balcony</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
@@ -28,7 +29,8 @@
         <div class="modal-header">
             <span class="close">&times;</span>
             <h2>Дарим подарки</h2>
-            <p>Закажите отделку балкона под ключ и выбирайте один из подарков! Просто отправьте заявку и мы свяжемся с вами в ближайшее время.</p>
+            <p>Закажите отделку балкона под ключ и выбирайте один из подарков! Просто отправьте заявку и мы свяжемся с
+                вами в ближайшее время.</p>
         </div>
     </div>
 </div>
@@ -43,9 +45,19 @@
         <li><a href="/balcony/for-company.html">О компании</a></li>
         <li><a href="/balcony/contacts.html">Контакты</a></li>
     </ul>
-    <div class="header_phone-btn">
-        <button>+375295542440</button>
+
+    <div class="header-controls">
+        <div class="header_phone-btn-adapt">
+            <button><img src="/img/icons/phone.svg" width="20" height="20" alt=""></button>
+        </div>
+        <div class="header_phone-btn">
+            <button>+375295542440</button>
+        </div>
+        <span class="burger">
+            <img src="/img/icons/burger.svg" alt="">
+        </span>
     </div>
+
 </div>
 
 <div class="main_block container">
@@ -60,10 +72,13 @@
         </button>
     </div>
 </div>
+<div class="main_block-adapt container">
+
+</div>
 
 <div class="service_block yellow-background">
     <div class="container">
-        <div>
+        <div class="yellow_text-adapt">
             <ul>
                 <li>
                     <h5>КАЧЕСТВО</h5>
@@ -95,8 +110,17 @@
                         заказы в максимально сжатые сроки
                     </p>
                 </li>
-
             </ul>
+            <div class="yellow_text">
+                <span>
+                    <h2>15+</h2>
+                    <h4>Лет на рынке</h4>
+                </span>
+                <span>
+                    <h2>1300</h2>
+                    <h4>Выполненных проектов</h4>
+                </span>
+            </div>
         </div>
         <div class="exp">
             <h4>
@@ -106,11 +130,11 @@
             <div>
                 <span>
                     <h2>15+</h2>
-                    <h4>Лет на рынке</h4>
+                    <h4>Лет<br> на рынке</h4>
                 </span>
                 <span>
                     <h2>1300</h2>
-                    <h4>Выполненных проектов</h4>
+                    <h4>Выполненных<br> проектов</h4>
                 </span>
             </div>
         </div>
@@ -135,7 +159,7 @@
     <h2>АКЦИЯ МЕСЯЦА</h2>
     <h4>
         <b class="yellow_back">Гарантированные подарки</b><br>
-        при заказе отделки балкона под ключ!
+        <p>при заказе отделки балкона под ключ!</p>
     </h4>
     <div class="black-btn">
         <button id="btnDetails">
@@ -161,7 +185,7 @@
             <a href="#">О компании &rarr;</a>
         </div>
         <div class="about_the_company-img">
-            <img src="img/viktor.jpg" alt="Viktor">
+
         </div>
     </div>
 </div>
@@ -181,7 +205,25 @@
             <li><img src="img/logo-partner/logo_partner (8).png" alt=""></li>
         </ul>
     </div>
+    <div class="manufacturers_logo-slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/logo-partner/logo_partner.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/logo-partner/logo_partner (1).png" alt=""></div>
+                <div class="swiper-slide"><img src="img/logo-partner/logo_partner (2).png" alt=""></div>
+                <div class="swiper-slide"><img src="img/logo-partner/logo_partner (3).png" alt=""></div>
+                <div class="swiper-slide"><img src="img/logo-partner/logo_partner (4).png" alt=""></div>
+                <div class="swiper-slide"><img src="img/logo-partner/logo_partner (5).png" alt=""></div>
+                <div class="swiper-slide"><img src="img/logo-partner/logo_partner (6).png" alt=""></div>
+                <div class="swiper-slide"><img src="img/logo-partner/logo_partner (7).png" alt=""></div>
+                <div class="swiper-slide"><img src="img/logo-partner/logo_partner (8).png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+
 </div>
+
 
 <div class="contacts container">
     <form action="#">
@@ -285,12 +327,17 @@
 
 <div class="footer">
     <div class="container">
+        <div class="footer_logo-adapt">
+            <img src="img/logo.png" alt="" width="150" height="40">
+        </div>
         <div class="footer-links">
             <div>
+
                 <ul>
-                    <li>
+                    <li class="footer_logo">
                         <img src="img/logo.png" alt="" width="150" height="40">
                     </li>
+
                     <li>
                         г. Минск, ул. Масюковщина, 44
                     </li>
@@ -327,7 +374,7 @@
             <div>
                 <ul>
                     <li>
-                        <h5>НАШИ РАБОТЫ</h5>
+                        <a href="#">НАШИ РАБОТЫ</a>
                     </li>
                     <li>
                         <a href="#">ОТЗЫВЫ</a>
@@ -344,11 +391,9 @@
                 </ul>
             </div>
             <div>
-                <ul>
+                <ul class="footer_contacts">
                     <li>
                         <h3><a href="#">+375295542440</a></h3>
-                    </li>
-                    <li>
                         <h4><a href="3">oknobalkon1@mail.ru</a></h4>
                     </li>
                     <li>
@@ -359,6 +404,11 @@
                 </ul>
             </div>
         </div>
+        <div  class="footer_btn-adapt">
+            <button>
+                Заказать звонок
+            </button>
+        </div>
         <div class="copyright_field">
             <a href="#"><p>Политика конфиденциальности</p></a>
             <p>2024 OKNOBALCON. Все права защищены</p>
@@ -366,7 +416,7 @@
     </div>
 </div>
 
-
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

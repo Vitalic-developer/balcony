@@ -1,42 +1,738 @@
-@media (max-width: 960px){
-    .container{
+@media (max-width: 1240px) {
+    .container {
         width: 920px;
     }
-    .header.container{
+
+
+    .header.container {
         font-size: 16px;
     }
-    .logo{
+
+    .logo {
         width: 140px;
     }
-    .header_phone-btn button{
+
+    .header_phone-btn button {
         font-size: 20px;
     }
-    .main_block{
+
+    .main_block {
         background-position: -165px;
     }
-    .service_block .container{
+
+    .service_block .container {
         flex-direction: column-reverse;
     }
-    .exp{
+
+    .exp {
         display: flex;
         justify-content: space-between;
         max-width: 100%;
         align-items: center;
         margin-bottom: 55px;
     }
-    .exp div{
+
+    .exp div {
         margin-top: 0;
+        column-gap: 0;
     }
-    .exp h4{
-        max-width: 470px;
+
+    .exp > h4 {
+        width: 470px;
     }
-    .exp span{
+
+    .exp span {
         width: 225px;
     }
-    .service_block ul{
+
+    .service_block ul {
         max-width: 100%;
     }
-    .service_block ul li{
-        max-width: 215px;
+
+    .service_block ul li {
+        width: 215px;
+        height: 220px;
+    }
+
+    .our_services-windows {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+
+    .promotion {
+        background: url(../img/box-background.jpg) no-repeat -200px 0;
+        border-radius: 10px;
+        background-size: cover;
+    }
+
+    .about_the_company-text {
+        width: 470px;
+    }
+
+    .about_the_company-img {
+        width: 450px;
+        height: 495px;
+    }
+
+    .about_the_company-text a {
+        margin-top: 30px;
+    }
+
+    .manufacturers ul {
+        column-gap: 50px;
+    }
+
+    .manufacturers ul li {
+        width: 140px;
+        height: 60px;
+    }
+
+    .contacts form {
+        width: 100%;
+        padding: 40px 20px 30px;
+    }
+
+    .contacts h3 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contacts h4 {
+        text-align: center;
+        padding: 20px 60px 60px;
+    }
+
+    .input-fields {
+        flex-direction: column;
+        width: 100%;
+        row-gap: 20px;
+    }
+
+    .input-fields input {
+        width: 100%;
+    }
+
+    .input-fields button,
+    .input-fields .black-btn {
+        width: 100%;
+    }
+
+    .input-fields p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .contacts_img {
+        flex-direction: row;
+        column-gap: 20px;
+        margin-top: 20px;
+    }
+
+    .contacts_img img {
+        width: 450px;
+        height: 260px;
+    }
+
+    .customer_opinion {
+        column-gap: 20px;
+    }
+
+    .customer_opinion ul {
+        order: 1;
+        justify-content: end;
+    }
+
+    .customer_opinion ul li {
+        width: 450px;
+        height: 264px;
+    }
+
+    .customer_opinion ul li:nth-child(n+3) {
+        display: none;
+    }
+
+    .customer_opinion video {
+        width: 100%;
+        height: 548px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer-links div:nth-child(1) {
+        width: 160px;
+    }
+
+    .footer-links div:nth-child(2) {
+        width: 168px;
+    }
+
+    .footer-links div:nth-child(3) {
+        width: 145px;
+    }
+
+    .footer h3 {
+        font-size: 28px;
+    }
+
+    .footer h4 {
+        font-size: 20px;
+    }
+
+    .footer h5 {
+        font-size: 18px;
+    }
+
+    .footer_btn {
+        padding: 18px 46px;
     }
 }
+
+@media (max-width: 920px) {
+    .container {
+        width: 728px;
+    }
+    h1{
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    .header ul {
+        display: none;
+    }
+
+    .header-controls {
+        column-gap: 20px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .main_block {
+        background-position: -240px;
+    }
+
+    .service_block ul {
+        width: 780px;
+    }
+
+    .service_block ul li {
+        width: 230px;
+        height: 190px;
+    }
+
+    .exp div {
+        display: none;
+    }
+
+    .exp h4 {
+        width: 100%;
+    }
+
+    .yellow_text-adapt {
+        display: flex;
+    }
+
+    .yellow_text-adapt .yellow_text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 100px;
+        padding-top: 38px;
+    }
+
+    .about_the_company .container {
+        flex-direction: column-reverse;
+    }
+
+    .about_the_company-text {
+        width: 100%;
+    }
+
+    .about_the_company-img {
+        width: 100%;
+        background-size: cover;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .manufacturers_logo {
+        display: none;
+    }
+
+    .manufacturers_logo-slider {
+        display: block;
+    }
+
+    .manufacturers h4 {
+        font-size: 24px;
+    }
+
+    .contacts_img img {
+        width: 354px;
+        height: 220px;
+    }
+
+    .customer_opinion ul li {
+        width: 280px;
+        height: 260px;
+    }
+
+
+    .customer_opinion ul li a {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer-links {
+        flex-wrap: wrap;
+        column-gap: 50px;
+        row-gap: 70px;
+    }
+
+    .footer .footer_contacts {
+        flex-direction: row;
+        align-items: center;
+        column-gap: 85px;
+    }
+
+    .copyright_field {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 780px) {
+    .container {
+        width: 440px;
+    }
+    h1{
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .header_phone-btn {
+        display: none;
+    }
+
+    .header_phone-btn-adapt {
+        display: block;
+    }
+
+    .header-controls {
+        align-items: center;
+        column-gap: 30px;
+    }
+
+    .main_block {
+        background: #ffffff;
+        padding-left: 6px;
+    }
+
+    .main_block h1 {
+        padding-top: 0;
+        width: 440px;
+    }
+
+    .main_block-adapt {
+        width: 440px;
+        height: 365px;
+        background: url(../img/home-2.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .main_block h4 {
+        padding-bottom: 20px;
+    }
+
+    .yellow_back {
+        padding: 0 8px;
+    }
+
+    .yellow_text-adapt .yellow_text {
+        display: none;
+    }
+
+    .exp {
+        flex-direction: column;
+    }
+
+    .exp div {
+        display: flex;
+    }
+
+    .exp span h4 {
+
+    }
+
+    .service_block ul li {
+        width: 210px;
+        height: 160px;
+    }
+
+    .service_block ul li h5 {
+        font-size: 16px;
+    }
+
+    .service_block ul li p {
+        font-size: 14px;
+    }
+
+    .our_services {
+        padding-top: 50px;
+    }
+
+
+    .our_services-windows {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 215px;
+    }
+
+
+    .promotion {
+        margin-top: 50px;
+        background: url("../img/box-background-480.jpg") no-repeat;
+        padding: 20px;
+    }
+
+    .promotion h2 {
+        font-size: 40px;
+    }
+
+    .promotion h4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        max-width: 300px;
+    }
+
+    .promotion .black-btn button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .about_the_company {
+        margin-top: 50px;
+    }
+
+    .about_the_company-text {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .about_the_company-text p {
+        font-size: 16px;
+    }
+
+    .about_the_company-img {
+        background: url(../img/viktor.jpg) no-repeat 0 -80px;
+        height: 300px;
+    }
+
+    .manufacturers {
+        margin-top: 50px;
+    }
+
+    .manufacturers h4 {
+        padding-bottom: 30px;
+    }
+
+    .contacts.container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .contacts form {
+        padding: 15px 30px;
+    }
+
+    .contacts h3 {
+        font-size: 34px;
+    }
+
+    .contacts h4 {
+        padding: 20px 10px 40px;
+        font-size: 18px;
+    }
+
+    .black-btn button {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .contacts_img {
+        width: 100%;
+    }
+
+    .contacts_img img {
+        width: 100%;
+    }
+
+    .contacts_img img:last-child {
+        display: none;
+    }
+
+    .input-fields p {
+        font-size: 12px;
+    }
+
+    .opinion {
+        margin-top: 50px;
+    }
+
+    .customer_opinion {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .customer_opinion video {
+        width: 440px;
+        height: 562px;
+    }
+
+    .customer_opinion ul li {
+        width: 100%;
+        height: 225px;
+    }
+
+    .customer_opinion ul li:nth-child(n+1) {
+        display: block;
+    }
+
+    .customer_opinion ul li h5 {
+        font-size: 16px;
+    }
+
+    .customer_opinion ul li p {
+        font-size: 14px;
+    }
+
+    .customer_opinion ul li a {
+        margin-top: 10px;
+    }
+
+    .footer .footer_contacts {
+        flex-direction: column;
+    }
+
+    .footer_logo {
+        display: none;
+    }
+
+    .footer_logo-adapt {
+        display: block;
+        padding-bottom: 20px;
+    }
+    .footer h3 {
+        margin-top: -8px;
+    }
+
+    .copyright_field {
+        flex-direction: column;
+    }
+    .copyright_field p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 320px;
+    }
+    h1{
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .burger,
+    .header_phone-btn-adapt button {
+        width: 26px;
+    }
+
+    .main_block h1 {
+        width: 100%;
+    }
+
+    .yellow_back {
+        display: inline-block;
+        width: 340px;
+    }
+
+    .main_block {
+        padding-bottom: 30px;
+    }
+
+    .main_block h4 {
+        font-size: 18px;
+    }
+
+    .black-btn button {
+        font-size: 16px;
+        padding: 18px 0;
+    }
+
+    .main_block-adapt {
+        height: 266px;
+    }
+
+    .service_block {
+        margin-top: 50px;
+    }
+
+    .exp {
+        align-items: stretch;
+    }
+
+    .exp h2 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .exp span h4 {
+        font-size: 16px;
+    }
+
+    .service_block ul {
+        padding-bottom: 30px;
+    }
+
+    .service_block ul li {
+        width: 100%;
+        height: 120px;
+    }
+
+    .our_services-windows {
+        grid-auto-rows: 165px;
+    }
+
+    .our_services a:nth-child(1) {
+        height: 165px;
+        grid-row: span 1;
+    }
+
+    .our_services-windows h5 {
+        font-size: 16px;
+    }
+
+    .promotion {
+        background: url(../img/box-background-360.jpg) no-repeat;
+        background-size: cover;
+        padding: 20px 30px;
+    }
+
+    .promotion h2 {
+        font-size: 26px;
+    }
+
+    .promotion h4 {
+        font-size: 16px;
+    }
+
+    .promotion .yellow_back {
+        width: 235px;
+        padding: 3px 10px;
+    }
+
+    .promotion p {
+        width: 160px;
+    }
+
+    .about_the_company-img {
+        background: url(../img/viktor.jpg) no-repeat 0 -30px;
+        background-size: cover;
+    }
+
+    .about_the_company-text {
+        padding: 20px 20px 30px 20px;
+    }
+
+
+    .about_the_company-text p {
+        font-size: 14px;
+    }
+    .about_the_company-text a{
+        font-size: 16px;
+    }
+    .customer_opinion video{
+        width: 100%;
+        height: 400px;
+    }
+    .footer-links{
+        font-size: 14px;
+        column-gap: 0;
+    }
+    .footer-links div:nth-child(1) {
+        width: 140px;
+    }
+    .footer-links div:nth-child(2) {
+        width: 146px;
+    }
+    .footer-links div:nth-child(3) {
+        width: 110px;
+    }
+    .footer h3 {
+        font-size: 20px;
+    }
+    .footer h4 {
+        font-size: 14px;
+    }
+    .footer_contacts .footer_btn{
+        display: none;
+    }
+    .footer_btn-adapt{
+        display: block;
+    }
+
+
+
+    .copyright_field p{
+        font-size: 14px;
+    }
+
+
+}
+
+
+
