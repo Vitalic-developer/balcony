@@ -48,7 +48,6 @@ document.addEventListener('DOMContentLoaded', function () {
     let swiper = new Swiper('.swiper-container-2', {
         slidesPerView: '4', // Количество слайдов на экране по умолчанию
         spaceBetween: 20, // Расстояние между слайдами
-        loop: true, // Бесконечный цикл
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',

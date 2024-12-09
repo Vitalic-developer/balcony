@@ -639,8 +639,22 @@ h5 {
 .finishing_img {
     width: 600px;
     border-radius: 8px;
-    background: url("../img/finishing.jpg") no-repeat 70px 0;
     background-size: cover;
+}
+.finishing-of-balconies .finishing_img{
+    background: url("../img/finishing.jpg") no-repeat 0 0;
+}
+.windows-frames .finishing_img{
+    background: url("../img/windows-frames/image.jpg") no-repeat 0 0;
+}
+.windows-repair .finishing_img{
+    background: url("../img/window-repair/main-image.jpg") no-repeat 0 0;
+}
+.furniture-balconies .finishing_img{
+    background: url("../img/furniture-balconies/main-image.jpg") no-repeat 0 0;
+}
+.roller-blinds .finishing_img{
+    background: url("../img/roller-blinds/main-image.jpg") no-repeat 0 0;
 }
 
 .finishing p {
@@ -702,49 +716,51 @@ h5 {
     margin-bottom: 50px;
 }
 
-.execution ul li:nth-child(2) {
-    background: #ffffff url("../img/boards.jpg") no-repeat right top;
+.execution ul li:nth-child(2) {background: #ffffff url("../img/finishing-of-balconies/boards.jpg") no-repeat right top;}
+.execution ul li:nth-child(3) {background: #ffffff url("../img/finishing-of-balconies/boards-2.jpg") no-repeat right top;}
+.execution ul li:nth-child(4) {background: #ffffff url("../img/finishing-of-balconies/boards-3.jpg") no-repeat right top;}
+.execution ul li:nth-child(5) {background: #ffffff url("../img/finishing-of-balconies/boards-4.jpg") no-repeat right top;}
+.execution ul li:nth-child(6) {background: #ffffff url("../img/finishing-of-balconies/roof.jpg") no-repeat right top;}
+.execution ul li:nth-child(7) {background: #ffffff url("../img/finishing-of-balconies/outside.jpg") no-repeat right top;}
+.execution ul li:nth-child(8) {background: #ffffff url("../img/finishing-of-balconies/boards-5.jpg") no-repeat right top;}
+.execution ul li:nth-child(9) {background: #ffffff url("../img/finishing-of-balconies/warm.jpg") no-repeat right top;}
+.execution ul li:nth-child(10) {background: #ffffff url("../img/finishing-of-balconies/wires.jpg") no-repeat right top;}
+.execution ul li:nth-child(11) {background: #ffffff url("../img/finishing-of-balconies/glazing.jpg") no-repeat right top;}
+.execution ul li:nth-child(12) {background: #ffffff url("../img/finishing-of-balconies/warm-glazing.jpg") no-repeat right top;}
+
+.windows-frames{
+    .execution ul li:nth-child(2) {background: #ffffff url("../img/windows-frames/image-1.jpg") no-repeat right top;}
+    .execution ul li:nth-child(3) {background: #ffffff url("../img/windows-frames/image-2.jpg") no-repeat right top;}
+    .execution ul li:nth-child(4) {background: #ffffff url("../img/windows-frames/image-3.jpg") no-repeat right top;}
+    .execution ul li:nth-child(5) {background: #ffffff url("../img/windows-frames/image-4.jpg") no-repeat right top;}
+    .execution ul li:nth-child(6) {background: #ffffff url("../img/windows-frames/image-5.jpg") no-repeat right top;}
+    .execution ul li:nth-child(7) {background: #ffffff url("../img/windows-frames/image-6.jpg") no-repeat right top;}
+    .execution ul li:nth-child(8) {background: #ffffff url("../img/windows-frames/image-7.jpg") no-repeat right top;}
+    .execution ul li:nth-child(9) {background: #ffffff url("../img/windows-frames/image-8.jpg") no-repeat right top;}
+}
+.windows-repair{
+    .execution ul li:nth-child(2) {background: #ffffff url("../img/window-repair/image-1.jpg") no-repeat right top;}
+    .execution ul li:nth-child(3) {background: #ffffff url("../img/window-repair/image-2.jpg") no-repeat right top;}
+    .execution ul li:nth-child(4) {background: #ffffff url("../img/window-repair/image-3.jpg") no-repeat right top;}
+    .execution ul li:nth-child(5) {background: #ffffff url("../img/window-repair/image-4.jpg") no-repeat right top;}
+    .execution ul li:nth-child(6) {background: #ffffff url("../img/window-repair/image-5.jpg") no-repeat right top;}
+}
+.furniture-balconies{
+    .execution ul li:nth-child(2) {background: #ffffff url("../img/furniture-balconies/image-1.jpg") no-repeat right top;}
+    .execution ul li:nth-child(3) {background: #ffffff url("../img/furniture-balconies/image-2.jpg") no-repeat right top;}
+    .execution ul li:nth-child(4) {background: #ffffff url("../img/furniture-balconies/image-3.jpg") no-repeat right top;}
+    .execution ul li:nth-child(5) {background: #ffffff url("../img/furniture-balconies/image-4.jpg") no-repeat right top;}
+}
+.roller-blinds{
+    .execution ul li:nth-child(2) {background: #ffffff url("../img/roller-blinds/image-1.jpg") no-repeat right top;}
+    .execution ul li:nth-child(3) {background: #ffffff url("../img/roller-blinds/image-2.jpg") no-repeat right top;}
+    .execution ul li:nth-child(4) {background: #ffffff url("../img/roller-blinds/image-3.jpg") no-repeat right top;}
+
 }
 
-.execution ul li:nth-child(3) {
-    background: #ffffff url("../img/boards-2.jpg") no-repeat right top;
-}
 
-.execution ul li:nth-child(4) {
-    background: #ffffff url("../img/boards-3.jpg") no-repeat right top;
-}
 
-.execution ul li:nth-child(5) {
-    background: #ffffff url("../img/boards-4.jpg") no-repeat right top;
-}
 
-.execution ul li:nth-child(6) {
-    background: #ffffff url("../img/roof.jpg") no-repeat right top;
-}
-
-.execution ul li:nth-child(7) {
-    background: #ffffff url("../img/outside.jpg") no-repeat right top;
-}
-
-.execution ul li:nth-child(8) {
-    background: #ffffff url("../img/boards-5.jpg") no-repeat right top;
-}
-
-.execution ul li:nth-child(9) {
-    background: #ffffff url("../img/warm.jpg") no-repeat right top;
-}
-
-.execution ul li:nth-child(10) {
-    background: #ffffff url("../img/wires.jpg") no-repeat right top;
-}
-
-.execution ul li:nth-child(11) {
-    background: #ffffff url("../img/glazing.jpg") no-repeat right top;
-}
-
-.execution ul li:nth-child(12) {
-    background: #ffffff url("../img/warm-glazing.jpg") no-repeat right top;
-}
 
 .execution .yellow_back {
     font-weight: 600;
@@ -752,6 +768,13 @@ h5 {
     margin-left: 0;
 }
 
+.species-roller{
+    flex: 1 100%;
+    margin-bottom: 50px;
+}
+.species_furniture{
+    flex: 1 50%;
+}
 .species_adapt {
     display: none;
 }
@@ -826,8 +849,57 @@ h5 {
     row-gap: 20px;
 }
 
-.card {
-    background: url("../img/balcony-1.jpg") no-repeat;
+
+.swiper-backface-hidden .swiper-slide{
+    border-radius: 10px;
+    background-size: cover !important;
+
+}
+
+.finishing-of-balconies{
+    .swiper-backface-hidden .swiper-slide:nth-child(1){background: url("../img/finishing-of-balconies/slide-1.jpg") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(2){background: url("../img/finishing-of-balconies/slide-2.jpg") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(3){background: url("../img/finishing-of-balconies/slide-3.jpg") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(4){background: url("../img/finishing-of-balconies/slide-1.jpg") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(5){background: url("../img/finishing-of-balconies/slide-2.jpg") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(6){background: url("../img/finishing-of-balconies/slide-3.jpg") no-repeat;}
+}
+.windows-frames{
+    .swiper-backface-hidden .swiper-slide:nth-child(1){background: url("../img/windows-frames/slide-1.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(2){background: url("../img/windows-frames/slide-2.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(3){background: url("../img/windows-frames/slide-3.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(4){background: url("../img/windows-frames/slide-1.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(5){background: url("../img/windows-frames/slide-2.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(6){background: url("../img/windows-frames/slide-3.png") no-repeat;}
+}
+.windows-repair{
+    .swiper-backface-hidden .swiper-slide:nth-child(1){background: url("../img/window-repair/slide-1.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(2){background: url("../img/window-repair/slide-2.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(3){background: url("../img/window-repair/slide-3.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(4){background: url("../img/window-repair/slide-1.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(5){background: url("../img/window-repair/slide-2.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(6){background: url("../img/window-repair/slide-3.png") no-repeat;}
+}
+.furniture-balconies{
+    .swiper-backface-hidden .swiper-slide:nth-child(1){background: url("../img/furniture-balconies/slide-1.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(2){background: url("../img/furniture-balconies/slide-2.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(3){background: url("../img/furniture-balconies/slide-3.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(4){background: url("../img/furniture-balconies/slide-1.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(5){background: url("../img/furniture-balconies/slide-2.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(6){background: url("../img/furniture-balconies/slide-3.png") no-repeat;}
+}
+.roller-blinds{
+    .swiper-backface-hidden .swiper-slide:nth-child(1){background: url("../img/roller-blinds/slide-1.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(2){background: url("../img/roller-blinds/slide-2.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(3){background: url("../img/roller-blinds/slide-3.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(4){background: url("../img/roller-blinds/slide-1.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(5){background: url("../img/roller-blinds/slide-2.png") no-repeat;}
+    .swiper-backface-hidden .swiper-slide:nth-child(6){background: url("../img/roller-blinds/slide-3.png") no-repeat;}
+}
+
+
+
+.card{
     width: 392px;
     height: 500px;
     border-radius: 10px;
@@ -889,6 +961,12 @@ h5 {
     font-weight: 500;
     text-align: left;
 }
+
+
+
+
+
+
 
 .question {
     margin-top: 100px;
@@ -1347,9 +1425,7 @@ h5 {
     opacity: 0.8;
 }
 
-.swiper-backface-hidden .swiper-slide {
-    background: transparent;
-}
+
 
 
 .dropdown {

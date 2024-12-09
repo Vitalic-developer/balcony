@@ -543,7 +543,8 @@
         width: 229px;
         background-size: 90px !important;
     }
-
+    .species-roller,
+    .species_furniture,
     .species {
         display: none;
     }
