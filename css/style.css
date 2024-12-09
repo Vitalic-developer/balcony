@@ -9,6 +9,10 @@ body {
     max-width: 1216px;
     margin: 0 auto;
 }
+video{
+    width: 100%;
+    height: auto;
+}
 
 p {
     font-size: 16px;
@@ -283,20 +287,35 @@ h5 {
     grid-template-rows: auto auto;
     gap: 20px;
     padding-top: 30px;
+
+}
+.our_services-windows:hover{
+    color: #FCCF3C;
+    transition: .2s;
 }
 
 .our_services-windows a {
+    transition: .2s;
     background-size: contain;
     position: relative;
     border-radius: 8px;
+    color: #ffffff;
 }
-
+.our_services-windows a:hover{
+    color: #FCCF3C;
+}
+.our_services-windows a img{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
 .our_services-windows h5 {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    color: #FFFAEA;
 }
+
+
 
 .our_services a:nth-child(1) {
     grid-row: span 2;
@@ -1436,14 +1455,11 @@ h5 {
 .dropdown-content {
     display: none;
     position: absolute;
-
-    .dropdown-content
-;
     background-color: #f9f9f9;
     z-index: 1;
     border-radius: 8px;
     top: 40px;
-    left: -10px;
+    left: 0;
     box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.2);
 }
 
