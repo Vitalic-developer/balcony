@@ -250,7 +250,7 @@
 
     .customer_opinion ul {
         order: 1;
-        justify-content: end;
+        justify-content: space-between;
     }
 
     .customer_opinion ul li {
@@ -261,10 +261,9 @@
     .customer_opinion ul li:nth-child(n+3) {
         display: none;
     }
-
-    .customer_opinion video {
-        width: 100%;
-        height: 548px;
+    .video-container{
+        width: 800px;
+        height: 545px;
     }
 
     .finishing_img {
@@ -889,13 +888,11 @@
     }
 
     .customer_opinion video {
-        width: 440px;
-        height: 562px;
+
     }
 
-    .customer_opinion ul li {
+    .video-container{
         width: 100%;
-        height: 225px;
     }
 
     .customer_opinion ul li:nth-child(n+1) {
@@ -1083,6 +1080,10 @@
     .offers_check li{
         font-size: 18px;
     }
+    .customer_opinion ul li {
+        width: 100%;
+        height: 100%;
+    }
 
 
 }
@@ -1230,8 +1231,7 @@
     }
 
     .customer_opinion video {
-        width: 100%;
-        height: 400px;
+
     }
 
     .headline h1 {
