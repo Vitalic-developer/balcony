@@ -364,6 +364,7 @@
 
 
 
+
     .footer-links div:nth-child(1) {
         width: 160px;
     }
@@ -424,6 +425,7 @@
 
     .header-controls {
         column-gap: 20px;
+        align-items: center;
     }
 
     .burger {
@@ -442,6 +444,7 @@
         width: 230px;
         height: 190px;
     }
+
 
     .exp div {
         display: none;
@@ -542,14 +545,13 @@
         width: 229px;
         background-size: 90px !important;
     }
-    .species-roller,
-    .species_furniture,
-    .species {
+    .execution ul li:first-child{
         display: none;
     }
 
     .species_adapt {
         display: block;
+        margin-bottom: 20px;
     }
 
     .stages_of_work ul {
@@ -1128,10 +1130,7 @@
         width: 100%;
     }
 
-    .yellow_back {
-        display: inline-block;
-        width: 340px;
-    }
+
 
     .main_block {
         padding-bottom: 30px;
@@ -1213,7 +1212,7 @@
     }
 
     .about_the_company-img {
-        background: url(../img/viktor.jpg) no-repeat 0 -30px;
+        background: url(../img/viktor-mobile.jpg) no-repeat 0 -30px;
         background-size: cover;
     }
 
@@ -1235,12 +1234,10 @@
     }
 
     .headline h1 {
-        width: 270px;
+        width: 360px;
     }
 
-    .headline .yellow_back {
-        width: 140px;
-    }
+
 
     .finishing p {
         font-size: 14px;
@@ -1323,6 +1320,11 @@
     }
     .map iframe {
         width: 320px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
     }
 
 

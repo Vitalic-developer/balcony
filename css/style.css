@@ -87,9 +87,9 @@ h5 {
 
 .yellow_back {
     background: #FCCF3C;
-    padding: 0 10px;
+    /*padding: 0 10px;*/
     border-radius: 8px;
-    margin-left: -10px;
+    /*margin-left: -10px;*/
 }
 
 .yellow-background {
@@ -177,6 +177,9 @@ h5 {
 .tittle_name {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.tittle_br{
+    display: inline-block;
 }
 
 .main_block {
@@ -662,7 +665,7 @@ h5 {
 }
 
 .finishing_text {
-    width: 550px;
+    width: 600px;
 }
 
 .finishing_img {
@@ -727,8 +730,13 @@ h5 {
 
 .execution ul li {
     width: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
+.execution ul li:first-child{
+    justify-content: center;
+}
 .execution ul li:not(:first-child) {
     padding: 20px 0 20px 20px;
     background-color: #ffffff;
@@ -741,7 +749,7 @@ h5 {
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    max-width: 190px;
+    max-width: 210px;
     margin-bottom: 50px;
 }
 
@@ -791,11 +799,11 @@ h5 {
 
 
 
-.execution .yellow_back {
-    font-weight: 600;
-    padding: 5px;
-    margin-left: 0;
-}
+/*.execution .yellow_back {*/
+/*    font-weight: 600;*/
+/*    padding: 5px;*/
+/*    margin-left: 0;*/
+/*}*/
 
 .species-roller{
     flex: 1 100%;
@@ -877,7 +885,6 @@ h5 {
     flex-wrap: wrap;
     row-gap: 20px;
 }
-
 
 .swiper-backface-hidden .swiper-slide{
     border-radius: 10px;
@@ -1453,6 +1460,34 @@ h5 {
 .swiper-button-next:hover {
     opacity: 0.8;
 }
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 15px;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    width: 48px;
+    height: 48px;
+}
+.swiper-button-next {
+    right: -90px;
+    color: #312E25;
+    background: #FFDE73;
+    border-radius: 8px;
+    font-weight: 700;
+}
+.swiper-button-prev {
+    right: -90px;
+    padding: 12px;
+    color: #312E25;
+    background: #FFDE73;
+    border-radius: 8px;
+    font-weight: 700;
+    z-index: 10;
+    left: -70px;
+}
+
+
+
 
 
 
