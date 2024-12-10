@@ -908,33 +908,33 @@ h5 {
 
 
 
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(1){background-image: url("../img/slider/img_1.png");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(2){background-image: url("../img/slider/img_5.png");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(3){background-image: url("../img/slider/img_3.png");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(4){background-image: url("../img/slider/img_4.png");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(5){background-image: url("../img/slider/img_5.png");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(6){background-image: url("../img/slider/img_6.png");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(7){background-image: url("../img/slider/img_7.png");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(8){background-image: url("../img/slider/img_8.png");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(9){background-image: url("../img/slider/img_9.png");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(10){background-image: url("../img/slider/img_10.png");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(11){background-image: url("../img/slider/img_11.png");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(12){background-image: url("../img/slider/img_12.png");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(13){background-image: url("../img/slider/img_13.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(14){background-image: url("../img/slider/img_14.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(15){background-image: url("../img/slider/img_15.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(16){background-image: url("../img/slider/img_16.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(17){background-image: url("../img/slider/img_17.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(18){background-image: url("../img/slider/img_18.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(19){background-image: url("../img/slider/img_19.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(20){background-image: url("../img/slider/img_20.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(21){background-image: url("../img/slider/img_21.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(22){background-image: url("../img/slider/img_22.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(23){background-image: url("../img/slider/img_23.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(24){background-image: url("../img/slider/img_24.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(25){background-image: url("../img/slider/img_25.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(26){background-image: url("../img/slider/img_26.jpg");}*/
-/*.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(27){background-image: url("../img/slider/img_27.jpg");}*/
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(1){background-image: url("../img/slider/img_1.png");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(2){background-image: url("../img/slider/img_5.png");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(3){background-image: url("../img/slider/img_3.png");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(4){background-image: url("../img/slider/img_4.png");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(5){background-image: url("../img/slider/img_5.png");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(6){background-image: url("../img/slider/img_6.png");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(7){background-image: url("../img/slider/img_7.png");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(8){background-image: url("../img/slider/img_8.png");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(9){background-image: url("../img/slider/img_9.png");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(10){background-image: url("../img/slider/img_10.png");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(11){background-image: url("../img/slider/img_11.png");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(12){background-image: url("../img/slider/img_12.png");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(13){background-image: url("../img/slider/img_13.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(14){background-image: url("../img/slider/img_14.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(15){background-image: url("../img/slider/img_15.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(16){background-image: url("../img/slider/img_16.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(17){background-image: url("../img/slider/img_17.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(18){background-image: url("../img/slider/img_18.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(19){background-image: url("../img/slider/img_19.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(20){background-image: url("../img/slider/img_20.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(21){background-image: url("../img/slider/img_21.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(22){background-image: url("../img/slider/img_22.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(23){background-image: url("../img/slider/img_23.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(24){background-image: url("../img/slider/img_24.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(25){background-image: url("../img/slider/img_25.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(26){background-image: url("../img/slider/img_26.jpg");}
+.swiper-container-2 .swiper-wrapper .swiper-slide:nth-child(27){background-image: url("../img/slider/img_27.jpg");}
 
 
 
