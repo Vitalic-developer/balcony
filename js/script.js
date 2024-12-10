@@ -1,11 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
     let modal = document.getElementById('myModal');
-    let btn = document.getElementById("signUp");
+    let buttons = document.querySelectorAll(".signUp"); // Выбираем все кнопки с классом signUp
     let close = document.getElementsByClassName("close")[0];
 
-    btn.onclick = function () {
-        modal.style.display = "block";
-    }
+    // Добавляем обработчик события для каждой кнопки
+    buttons.forEach(function (btn) {
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+    });
 
     close.onclick = function () {
         modal.style.display = "none";
