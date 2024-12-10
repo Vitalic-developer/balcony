@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // Первое модальное окно (myModal)
     let modal = document.getElementById('myModal');
     let buttons = document.querySelectorAll(".signUp"); // Выбираем все кнопки с классом signUp
     let close = document.getElementsByClassName("close")[0];
 
-    // Добавляем обработчик события для каждой кнопки
+    // Добавляем обработчик события для каждой кнопки с классом signUp
     buttons.forEach(function (btn) {
         btn.onclick = function () {
             modal.style.display = "block";
@@ -14,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         modal.style.display = "none";
     }
 
+    // Второе модальное окно (myModalGift)
     let modalGift = document.getElementById('myModalGift');
     let btnDetails = document.getElementById("btnDetails");
     let closeGift = document.getElementsByClassName("close")[1];
@@ -26,14 +28,34 @@ document.addEventListener('DOMContentLoaded', function () {
         modalGift.style.display = "none";
     }
 
+    // Третье модальное окно (vacancyModal)
+    let vacancyModal = document.getElementById('vacancyModal');
+    let btnVacancy = document.getElementById("vacancy");
+    let closeVacancy = document.getElementsByClassName("close")[2]; // Предполагаем, что у вас есть третий элемент с классом close
+
+    btnVacancy.onclick = function () {
+        vacancyModal.style.display = "block";
+    }
+
+    closeVacancy.onclick = function () {
+        vacancyModal.style.display = "none";
+    }
+
+    // Закрытие модальных окон при клике вне их области
     window.onclick = function (event) {
         if (event.target === modal) {
             modal.style.display = "none";
         } else if (event.target === modalGift) {
             modalGift.style.display = "none";
+        } else if (event.target === vacancyModal) {
+            vacancyModal.style.display = "none";
         }
     }
 });
+
+
+
+
 
 //slider
 document.addEventListener('DOMContentLoaded', function () {

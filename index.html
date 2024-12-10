@@ -43,7 +43,8 @@
             <span class="close">&times;</span>
             <form action="">
                 <h3>Дарим подарки! </h3>
-                <p>Закажите отделку балкона под ключ и выбирайте один из подарков! Просто отправьте заявку и мы свяжемся с вами в ближайшее время.</p>
+                <p>Закажите отделку балкона под ключ и выбирайте один из подарков! Просто отправьте заявку и мы свяжемся
+                    с вами в ближайшее время.</p>
                 <div class="input-fields">
                     <input type="text" name="name" required="" placeholder="Введите имя">
                     <input type="tel" name="phone" required="" placeholder="Введите номер телефона">
@@ -59,11 +60,43 @@
 </div>
 
 
+<div class="modal" id="vacancyModal">
+    <div class="modal-content">
+        <div class="vacancy">
+            <span class="close">&times;</span>
+            <form action="">
+                <h3><b class="yellow_back"> Работа </b> в OKNOBALKON </h3>
+                <h5>Мы постоянно растем и расширяемся, поэтому нам нужны новые кадры </h5>
+                <p>Готовы предоставить самые лучшие условия, оказать помощь в карьерном росте и заработке. Если вы
+                    квалифицированный специалист по установке окон ПВХ, алюминиевых рам, или вы мастер по отделке
+                    балконов — мы всегда рассмотрим вашу вакансию.</p>
+                <p>А может вы просто умеете держать перфоратор в руках и желаете стать мастером — можем предложить вам
+                    обучение.</p>
+                <h5>Отправьте заявку и мы свяжемся с вами в ближайшее время!</h5>
+                <div class="input-fields-vacancy">
+
+                    <input type="text" name="name" required="" placeholder="Введите имя">
+                    <input type="tel" name="phone" required="" placeholder="Введите номер телефона">
+
+                    <div class="black-btn">
+                        <button type="submit">Отправить заявку</button>
+                    </div>
+                </div>
+                <div>
+                    <span>Нажимая на кнопку, я соглашаюсь с условиями <a class="border" href="#">политики конфиденциальности</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
 <div class="header container">
     <a href="/balcony/index.html"><span class="logo"><img src="img/logo.png" alt=""></span></a>
     <ul>
         <li class="dropdown">
-            <button id="dropdownBtn" class="dropbtn">Услуги <img id="arrowIcon" src="img/icons/arrow-down.svg" alt=""></button>
+            <button id="dropdownBtn" class="dropbtn">Услуги <img id="arrowIcon" src="img/icons/arrow-down.svg" alt="">
+            </button>
             <div id="myDropdown" class="dropdown-content">
                 <a href="/balcony/finishing-of-balconies.html">Отделка балконов</a>
                 <a href="/balcony/windows-frames.html">Окна и рамы</a>
@@ -90,8 +123,8 @@
         <span class="burger">
             <div id="burgerIcon"></div>
             <div id="icon_close"></div>
-<!--            <img id="burgerIcon" src="img/icons/burger.svg" alt="" width="40">-->
-<!--            <img id="icon_close" src="img/icons/icon_close.svg" alt="" width="40">-->
+            <!--            <img id="burgerIcon" src="img/icons/burger.svg" alt="" width="40">-->
+            <!--            <img id="icon_close" src="img/icons/icon_close.svg" alt="" width="40">-->
         </span>
     </div>
 </div>
@@ -182,10 +215,12 @@
 
     <div class="our_services-windows">
 
-        <a href="/balcony/finishing-of-balconies.html"><h5>Отделка балконов</h5> <img src="img/icons/arrow-right.svg" alt=""> </a>
+        <a href="/balcony/finishing-of-balconies.html"><h5>Отделка балконов</h5> <img src="img/icons/arrow-right.svg"
+                                                                                      alt=""> </a>
         <a href="/balcony/windows-frames.html"><h5>Окна и рамы</h5><img src="img/icons/arrow-right.svg" alt=""></a>
         <a href="/balcony/window-repair.html"><h5>Ремонт окон</h5><img src="img/icons/arrow-right.svg" alt=""></a>
-        <a href="/balcony/furniture-balconies.html"><h5>Мебель для балконов</h5><img src="img/icons/arrow-right.svg" alt=""></a>
+        <a href="/balcony/furniture-balconies.html"><h5>Мебель для балконов</h5><img src="img/icons/arrow-right.svg"
+                                                                                     alt=""></a>
         <a href="/balcony/roller -blinds.html"><h5>Роль шторы</h5><img src="img/icons/arrow-right.svg" alt=""></a>
     </div>
 
@@ -424,8 +459,8 @@
                     <li>
                         <a href="#">КОНТАКТЫ</a>
                     </li>
-                    <li>
-                        <a href="#">ФОРМА  ВАКАНСИИ</a>
+                    <li id="vacancy">
+                        <a>ФОРМА ВАКАНСИИ</a>
                     </li>
                 </ul>
             </div>

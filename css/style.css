@@ -1061,6 +1061,22 @@ h5 {
     border-bottom: 1px solid #000000;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .policy {
     border-bottom: 1px solid black;
 }
@@ -1320,6 +1336,48 @@ h5 {
     background-color: #FFDE73;
     border-radius: 10px;
 }
+
+.vacancy{
+    padding: 30px;
+    background: #FFEDB3;
+    border-radius: 10px;
+}
+
+.vacancy h5{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.vacancy p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.input-fields-vacancy{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-fields-vacancy input{
+    background-color: #FFFAEA;
+    border-radius: 10px;
+    padding-left: 20px;
+    width: 290px;
+}
+.input-fields-vacancy button{
+    width: 290px;
+}
+.vacancy div{
+    text-align: center;
+}
+.border{
+    border-bottom: 1px solid #312E25;
+}
+#vacancy{
+    cursor: pointer;
+}
+
+
 
 
 @-webkit-keyframes animatetop {
