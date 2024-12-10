@@ -86,6 +86,7 @@ h5 {
 }
 
 .yellow_back {
+    white-space: nowrap;
     background: #FCCF3C;
     padding: 0 3px;
     border-radius: 8px;
@@ -903,40 +904,6 @@ h5 {
     background-size: cover !important;
 
 }
-
-
-/*.windows-frames{*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(1){background: url("../img/windows-frames/slide-1.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(2){background: url("../img/windows-frames/slide-2.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(3){background: url("../img/windows-frames/slide-3.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(4){background: url("../img/windows-frames/slide-1.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(5){background: url("../img/windows-frames/slide-2.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(6){background: url("../img/windows-frames/slide-3.png") no-repeat;}*/
-/*}*/
-/*.windows-repair{*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(1){background: url("../img/window-repair/slide-1.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(2){background: url("../img/window-repair/slide-2.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(3){background: url("../img/window-repair/slide-3.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(4){background: url("../img/window-repair/slide-1.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(5){background: url("../img/window-repair/slide-2.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(6){background: url("../img/window-repair/slide-3.png") no-repeat;}*/
-/*}*/
-/*.furniture-balconies{*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(1){background: url("../img/furniture-balconies/slide-1.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(2){background: url("../img/furniture-balconies/slide-2.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(3){background: url("../img/furniture-balconies/slide-3.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(4){background: url("../img/furniture-balconies/slide-1.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(5){background: url("../img/furniture-balconies/slide-2.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(6){background: url("../img/furniture-balconies/slide-3.png") no-repeat;}*/
-/*}*/
-/*.roller-blinds{*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(1){background: url("../img/roller-blinds/slide-1.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(2){background: url("../img/roller-blinds/slide-2.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(3){background: url("../img/roller-blinds/slide-3.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(4){background: url("../img/roller-blinds/slide-1.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(5){background: url("../img/roller-blinds/slide-2.png") no-repeat;}*/
-/*    .swiper-backface-hidden .swiper-slide:nth-child(6){background: url("../img/roller-blinds/slide-3.png") no-repeat;}*/
-/*}*/
 
 
 
