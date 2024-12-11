@@ -731,43 +731,7 @@ h5 {
     display: none;
 }
 
-.execution {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 
-.execution ul {
-    display: flex;
-    column-gap: 20px;
-    row-gap: 20px;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-}
-
-.execution ul li {
-    width: 392px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.execution ul li:first-child{
-    justify-content: center;
-}
-.execution ul li:not(:first-child) {
-    padding: 20px 0 20px 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.2);
-}
-
-.execution ul li h5 {
-    border-left: 3px solid #FCCF3C;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    max-width: 210px;
-    margin-bottom: 50px;
-}
 
 .execution ul li:nth-child(2) {background: #ffffff url("../img/finishing-of-balconies/boards.jpg") no-repeat right top;}
 .execution ul li:nth-child(3) {background: #ffffff url("../img/finishing-of-balconies/boards-2.jpg") no-repeat right top;}
@@ -811,7 +775,44 @@ h5 {
 
 }
 
+.execution {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
+.execution ul {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.execution ul li {
+    width: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: contain !important;
+}
+.execution ul li:first-child{
+    justify-content: center;
+}
+.execution ul li:not(:first-child) {
+    padding: 20px 0 20px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+.execution ul li h5 {
+    border-left: 3px solid #FCCF3C;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 210px;
+    margin-bottom: 50px;
+}
 
 
 
@@ -958,6 +959,7 @@ h5 {
     transition: .3s;
     position: relative;
     z-index: 1;
+    cursor: url('../img/icon_cursor.png'), auto;
 }
 
 .card::before {
