@@ -1,59 +1,39 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // Функция для управления модальным окном
+    function setupModal(modalId, triggerSelector, closeSelector) {
+        let modal = document.getElementById(modalId);
+        if (!modal) return;
+
+        let buttons = document.querySelectorAll(triggerSelector);
+        let close = document.querySelector(closeSelector);
+
+        if (buttons.length > 0) {
+            buttons.forEach(function (btn) {
+                btn.onclick = function () {
+                    modal.style.display = "block";
+                }
+            });
+        }
+
+        if (close) {
+            close.onclick = function () {
+                modal.style.display = "none";
+            }
+        }
+        //обработчик для закрытия при клике вне его области
+        window.addEventListener('click', function (event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        });
+    }
     // Первое модальное окно (myModal)
-    let modal = document.getElementById('myModal');
-    let buttons = document.querySelectorAll(".signUp"); // Выбираем все кнопки с классом signUp
-    let close = document.getElementsByClassName("close")[0];
-
-    // Добавляем обработчик события для каждой кнопки с классом signUp
-    buttons.forEach(function (btn) {
-        btn.onclick = function () {
-            modal.style.display = "block";
-        }
-    });
-
-    close.onclick = function () {
-        modal.style.display = "none";
-    }
-
+    setupModal('myModal', '.signUp', '#myModal .close');
     // Второе модальное окно (myModalGift)
-    let modalGift = document.getElementById('myModalGift');
-    let btnDetails = document.getElementById("btnDetails");
-    let closeGift = document.getElementsByClassName("close")[1];
-
-    btnDetails.onclick = function () {
-        modalGift.style.display = "block";
-    }
-
-    closeGift.onclick = function () {
-        modalGift.style.display = "none";
-    }
-
+    setupModal('myModalGift', '#btnDetails', '#myModalGift .close');
     // Третье модальное окно (vacancyModal)
-    let vacancyModal = document.getElementById('vacancyModal');
-    let btnVacancy = document.getElementById("vacancy");
-    let closeVacancy = document.getElementsByClassName("close")[2]; // Предполагаем, что у вас есть третий элемент с классом close
-
-    btnVacancy.onclick = function () {
-        vacancyModal.style.display = "block";
-    }
-
-    closeVacancy.onclick = function () {
-        vacancyModal.style.display = "none";
-    }
-
-    // Закрытие модальных окон при клике вне их области
-    window.onclick = function (event) {
-        if (event.target === modal) {
-            modal.style.display = "none";
-        } else if (event.target === modalGift) {
-            modalGift.style.display = "none";
-        } else if (event.target === vacancyModal) {
-            vacancyModal.style.display = "none";
-        }
-    }
+    setupModal('vacancyModal', '#vacancy', '#vacancyModal .close');
 });
-
-
 
 
 
@@ -140,6 +120,22 @@ document.addEventListener('DOMContentLoaded', function () {
         closeIcon.style.display = headerUl.classList.contains('active') ? 'block' : 'none';
     });
 });
+
+
+
+
+
+document.querySelectorAll('.before_after-block').forEach((block, blockIndex) => {
+    const cards = block.querySelectorAll('.card_ba');
+
+    cards.forEach(card => {
+        const imageType = card.textContent.trim() === 'До' ? 'before' : 'after';
+        card.style.backgroundImage = `url('img/before-after/${imageType}-${blockIndex + 1}.jpg')`;
+    });
+});
+
+
+
 
 
 

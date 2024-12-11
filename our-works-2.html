@@ -9,6 +9,62 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+
+<div id="myModal" class="modal">
+
+    <div class="modal-content">
+        <div class="modal-img">
+
+        </div>
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <form action="">
+                <h3>Один звонок до балкона вашей мечты </h3>
+                <p>Для получения бесплатного замера оставьте онлайн заявку и мы перезвоним вам в ближайшее время!</p>
+                <div class="input-fields">
+                    <input type="text" name="name" required="" placeholder="Введите имя">
+                    <input type="tel" name="phone" required="" placeholder="Введите номер телефона">
+
+                    <div class="black-btn">
+                        <button type="submit">Отправить заявку</button>
+                    </div>
+                    <span>Нажимая на кнопку, я соглашаюсь с условиями <a href="#">политики конфиденциальности</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal" id="vacancyModal">
+    <div class="modal-content">
+        <div class="vacancy">
+            <span class="close">&times;</span>
+            <form action="">
+                <h3><b class="yellow_back"> Работа </b> в OKNOBALKON </h3>
+                <h5>Мы постоянно растем и расширяемся, поэтому нам нужны новые кадры </h5>
+                <p>Готовы предоставить самые лучшие условия, оказать помощь в карьерном росте и заработке. Если вы
+                    квалифицированный специалист по установке окон ПВХ, алюминиевых рам, или вы мастер по отделке
+                    балконов — мы всегда рассмотрим вашу вакансию.</p>
+                <p>А может вы просто умеете держать перфоратор в руках и желаете стать мастером — можем предложить вам
+                    обучение.</p>
+                <h5>Отправьте заявку и мы свяжемся с вами в ближайшее время!</h5>
+                <div class="input-fields-vacancy">
+
+                    <input type="text" name="name" required="" placeholder="Введите имя">
+                    <input type="tel" name="phone" required="" placeholder="Введите номер телефона">
+
+                    <div class="black-btn">
+                        <button type="submit">Отправить заявку</button>
+                    </div>
+                </div>
+                <div>
+                    <span>Нажимая на кнопку, я соглашаюсь с условиями <a class="border" href="#">политики конфиденциальности</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
 <div class="header container">
     <a href="/balcony/index.html"><span class="logo"><img src="img/logo.png" alt=""></span></a>
     <ul>
@@ -50,7 +106,7 @@
 <div class="options container">
     <ul>
         <li><a href="/balcony/our-works.html">Все работы</a></li>
-        <li><a href="/balcony/our-works-2.html">До — После</a></li>
+        <li class="type-work"><a href="/balcony/our-works-2.html">До — После</a></li>
         <li><a href="/balcony/our-works-3.html">Процесс</a></li>
         <li><a href="/balcony/our-works-4.html">Обзоры балконов</a></li>
     </ul>
@@ -72,12 +128,14 @@
         <div class="before_after-text">
             <h5>Выполнили комплексную отделку и остекление балкона</h5>
             <ul>
+
                 <li><img src="img/icons/icon_check.svg" alt="">демонтировали старое остекление</li>
                 <li><img src="img/icons/icon_check.svg" alt="">установили алюминиевые рамы и подоконники ПВХ</li>
                 <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
                 <li><img src="img/icons/icon_check.svg" alt="">обшили стены и потолок ПВХ панелями</li>
                 <li><img src="img/icons/icon_check.svg" alt="">установили балконную мебель</li>
                 <li><img src="img/icons/icon_check.svg" alt="">установили сушилку для белья</li>
+
             </ul>
         </div>
         <div class="card_ba">
@@ -88,16 +146,17 @@
             <span>После</span>
         </div>
     </div>
+
     <div class="before_after-block">
         <div class="before_after-text">
             <h5>Выполнили комплексную отделку и остекление балкона</h5>
             <ul>
-                <li><img src="img/icons/icon_check.svg" alt="">демонтировали старое остекление</li>
-                <li><img src="img/icons/icon_check.svg" alt="">установили алюминиевые рамы и подоконники ПВХ</li>
                 <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
-                <li><img src="img/icons/icon_check.svg" alt="">обшили стены и потолок ПВХ панелями</li>
-                <li><img src="img/icons/icon_check.svg" alt="">установили балконную мебель</li>
-                <li><img src="img/icons/icon_check.svg" alt="">установили сушилку для белья</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили пластиковую раму</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены ламинатом</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили потолочные светильники и розетки</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили шкаф и откидной столик</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили потолок ПВХ панелями</li>
             </ul>
         </div>
         <div class="card_ba">
@@ -108,15 +167,37 @@
             <span>После</span>
         </div>
     </div>
+
     <div class="before_after-block">
         <div class="before_after-text">
-            <h5>Выполнили комплексную отделку и остекление балкона</h5>
+            <h5>Выполнили комплексную отделку просторного балкона</h5>
             <ul>
                 <li><img src="img/icons/icon_check.svg" alt="">демонтировали старое остекление</li>
-                <li><img src="img/icons/icon_check.svg" alt="">установили алюминиевые рамы и подоконники ПВХ</li>
+                <li><img src="img/icons/icon_check.svg" alt="">демонтировали старую обшивку</li>
                 <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
-                <li><img src="img/icons/icon_check.svg" alt="">обшили стены и потолок ПВХ панелями</li>
-                <li><img src="img/icons/icon_check.svg" alt="">установили балконную мебель</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили окна и подоконники ПВХ</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили потолок ПВХ панелями, на пол уложили ламинат</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили потолочные светильники и розетки</li>
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили комплексную отделку просторного балкона</h5>
+            <ul>
+                <li><img src="img/icons/icon_check.svg" alt="">установили подоконники ПВХ</li>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили пол</li>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены ламинатом</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили потолок панелями ПВХ</li>
                 <li><img src="img/icons/icon_check.svg" alt="">установили сушилку для белья</li>
             </ul>
         </div>
@@ -128,6 +209,309 @@
             <span>После</span>
         </div>
     </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили ограждение и отделку балкона</h5>
+            <ul>
+                <li><img src="img/icons/icon_check.svg" alt="">выполнили ограждение балкона</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили крышу</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили алюминиевую раму и ПВХ подоконник</li>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены и пол ламинатом</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили потолок ПВХ панелями</li>
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили комплексную отделку балкона</h5>
+            <ul>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены и пол ламинатом</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили потолок ПВХ панелями</li>
+                <li><img src="img/icons/icon_check.svg" alt="">смонтировали тумбочку</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили потолочные светильники и розетки</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили пластиковую раму</li>
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили комплексную отделку балкона с установкой мебели</h5>
+            <ul>
+                <li><img src="img/icons/icon_check.svg" alt="">демонтировали старую обшивку</li>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены вагонкой</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили потолок ПВХ панелями</li>
+                <li><img src="img/icons/icon_check.svg" alt="">смонтировали шкаф</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили пластиковую рамы</li>
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили комплексную отделку просторного балкона</h5>
+            <ul>
+                <li><img src="img/icons/icon_check.svg" alt="">демонтировали старое остекление</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили окна и подоконники ПВХ</li>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены вагонкой</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили потолочные светильники, розетки</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили балконную мебель</li>
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили остекление и монтаж крыши </h5>
+            <ul>
+                <li><img src="img/icons/icon_check.svg" alt="">демонтировали старое остекление</li>
+                <li><img src="img/icons/icon_check.svg" alt="">демонтировали старую крышу</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили окна ПВХ</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили подоконники ПВХ</li>
+                <li><img src="img/icons/icon_check.svg" alt="">смонтировали крышу</li>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
+
+
+
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили комплексную отделку балкона</h5>
+            <ul>
+                <li><img src="img/icons/icon_check.svg" alt="">демонтировали старое остекление</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили окна и подоконники ПВХ</li>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены и пол ламинатом</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили потолок ПВХ панелями</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили откидной столик и сидушку ларь</li>
+
+
+
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили комплексную отделку баллкона</h5>
+            <ul>
+                <li><img src="img/icons/icon_check.svg" alt="">демонтировали старую обшивку</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили подоконники ПВХ</li>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены и потолок ПВХ панелями</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили потолочные светильники, розетки</li>
+                <li><img src="img/icons/icon_check.svg" alt="">смонтировали тумбу</li>
+
+
+
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили комплексную отделку просторного балкона </h5>
+            <ul>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены вагонкой</li>
+                <li><img src="img/icons/icon_check.svg" alt="">выполнили укладку линолеума</li>
+                <li><img src="img/icons/icon_check.svg" alt="">смонтировали тумбочки</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили потолочные светильники и розетки</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили пластиковые подоконники</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили потолок ПВХ панелями</li>
+
+
+
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили комплексную отделку балкона с установкой мебели</h5>
+            <ul>
+
+                <li><img src="img/icons/icon_check.svg" alt="">демонтировали старое остекление</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили окна и подоконники ПВХ</li>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены и потолок ПВХ панелями</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили потолочные светильники и розетки</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили шкаф и тумбочку</li>
+
+
+
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили комплексную отделку балкона с установкой мебели</h5>
+            <ul>
+                <li><img src="img/icons/icon_check.svg" alt="">демонтировали старое остекление</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили окна и подоконники ПВХ</li>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены и пол ламинатом</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили потолок ПВХ панелями</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили шкаф и тумбочку</li>
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили комплексную отделку балкона с установкой мебели</h5>
+            <ul>
+                <li><img src="img/icons/icon_check.svg" alt="">демонтировали старое остекление</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили окна и подоконники ПВХ</li>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены и потолок ПВХ панелями</li>
+                <li><img src="img/icons/icon_check.svg" alt="">уложили ламинат на пол</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили тумбочку</li>
+
+
+
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили комплексную отделку балкона с установкой мебели</h5>
+            <ul>
+
+                <li><img src="img/icons/icon_check.svg" alt="">демонтировали старое остекление</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили окна и подоконники ПВХ</li>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены</li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены и пол ламинатом</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили тумбочки</li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили сушилку для белья</li>
+
+
+
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+    <div class="before_after-block">
+        <div class="before_after-text">
+            <h5>Выполнили комплексную отделку просторного балкона</h5>
+            <ul>
+
+                <li><img src="img/icons/icon_check.svg" alt="">демонтировали старое остекление </li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили окна и подоконники ПВХ </li>
+                <li><img src="img/icons/icon_check.svg" alt="">утеплили холодные стены </li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили стены вагонкой </li>
+                <li><img src="img/icons/icon_check.svg" alt="">обшили потолок ПВХ панелями, на пол уложили ламинат </li>
+                <li><img src="img/icons/icon_check.svg" alt="">установили сушилки для белья </li>
+
+
+
+            </ul>
+        </div>
+        <div class="card_ba">
+            <span>До</span>
+
+        </div>
+        <div class="card_ba">
+            <span>После</span>
+        </div>
+    </div>
+
+
+
 
     <div class="see_all">
         <button>
@@ -135,6 +519,23 @@
         </button>
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="contacts container">
     <form action="#">

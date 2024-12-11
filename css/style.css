@@ -133,6 +133,10 @@ h5 {
 .options.options-adapt {
     display: none;
 }
+.type-work{
+    background: #FCCF3C;
+    border: 1px solid #FCCF3C;
+}
 
 
 .burger {
@@ -908,35 +912,37 @@ h5 {
 
 
 
-.card_ba:nth-child(1), .swiper-slide:nth-child(1){background-image: url("../img/slider/img_1.png");}
-.card_ba:nth-child(2), .swiper-slide:nth-child(2){background-image: url("../img/slider/img_2.png");}
-.card_ba:nth-child(3), .swiper-slide:nth-child(3){background-image: url("../img/slider/img_3.png");}
-.card_ba:nth-child(4), .swiper-slide:nth-child(4){background-image: url("../img/slider/img_4.png");}
-.card_ba:nth-child(5), .swiper-slide:nth-child(5){background-image: url("../img/slider/img_5.png");}
-.card_ba:nth-child(6), .swiper-slide:nth-child(6){background-image: url("../img/slider/img_6.png");}
-.card_ba:nth-child(7), .swiper-slide:nth-child(7){background-image: url("../img/slider/img_7.png");}
-.card_ba:nth-child(8), .swiper-slide:nth-child(8){background-image: url("../img/slider/img_8.png");}
-.card_ba:nth-child(9), .swiper-slide:nth-child(9){background-image: url("../img/slider/img_9.png");}
-.card_ba:nth-child(10), .swiper-slide:nth-child(10){background-image: url("../img/slider/img_10.png");}
-.card_ba:nth-child(11), .swiper-slide:nth-child(11){background-image: url("../img/slider/img_11.png");}
-.card_ba:nth-child(12), .swiper-slide:nth-child(12){background-image: url("../img/slider/img_12.png");}
-.card_ba:nth-child(13), .swiper-slide:nth-child(13){background-image: url("../img/slider/img_13.jpg");}
-.card_ba:nth-child(14), .swiper-slide:nth-child(14){background-image: url("../img/slider/img_14.jpg");}
-.card_ba:nth-child(15), .swiper-slide:nth-child(15){background-image: url("../img/slider/img_15.jpg");}
-.card_ba:nth-child(16), .swiper-slide:nth-child(16){background-image: url("../img/slider/img_16.jpg");}
-.card_ba:nth-child(17), .swiper-slide:nth-child(17){background-image: url("../img/slider/img_17.jpg");}
-.card_ba:nth-child(18), .swiper-slide:nth-child(18){background-image: url("../img/slider/img_18.jpg");}
-.card_ba:nth-child(19), .swiper-slide:nth-child(19){background-image: url("../img/slider/img_19.jpg");}
-.card_ba:nth-child(20), .swiper-slide:nth-child(20){background-image: url("../img/slider/img_20.jpg");}
-.card_ba:nth-child(21), .swiper-slide:nth-child(21){background-image: url("../img/slider/img_21.jpg");}
-.card_ba:nth-child(22), .swiper-slide:nth-child(22){background-image: url("../img/slider/img_22.jpg");}
-.card_ba:nth-child(23), .swiper-slide:nth-child(23){background-image: url("../img/slider/img_23.jpg");}
-.card_ba:nth-child(24), .swiper-slide:nth-child(24){background-image: url("../img/slider/img_24.jpg");}
-.card_ba:nth-child(25), .swiper-slide:nth-child(25){background-image: url("../img/slider/img_25.jpg");}
-.card_ba:nth-child(26), .swiper-slide:nth-child(26){background-image: url("../img/slider/img_26.jpg");}
-.card_ba:nth-child(27), .swiper-slide:nth-child(27){background-image: url("../img/slider/img_27.jpg");}
+.card_ow:nth-child(1), .swiper-slide:nth-child(1){background-image: url("../img/slider/img_1.png");}
+.card_ow:nth-child(2), .swiper-slide:nth-child(2){background-image: url("../img/slider/img_2.png");}
+.card_ow:nth-child(3), .swiper-slide:nth-child(3){background-image: url("../img/slider/img_3.png");}
+.card_ow:nth-child(4), .swiper-slide:nth-child(4){background-image: url("../img/slider/img_4.png");}
+.card_ow:nth-child(5), .swiper-slide:nth-child(5){background-image: url("../img/slider/img_5.png");}
+.card_ow:nth-child(6), .swiper-slide:nth-child(6){background-image: url("../img/slider/img_6.png");}
+.card_ow:nth-child(7), .swiper-slide:nth-child(7){background-image: url("../img/slider/img_7.png");}
+.card_ow:nth-child(8), .swiper-slide:nth-child(8){background-image: url("../img/slider/img_8.png");}
+.card_ow:nth-child(9), .swiper-slide:nth-child(9){background-image: url("../img/slider/img_9.png");}
+.card_ow:nth-child(10), .swiper-slide:nth-child(10){background-image: url("../img/slider/img_10.png");}
+.card_ow:nth-child(11), .swiper-slide:nth-child(11){background-image: url("../img/slider/img_11.png");}
+.card_ow:nth-child(12), .swiper-slide:nth-child(12){background-image: url("../img/slider/img_12.png");}
+.card_ow:nth-child(13), .swiper-slide:nth-child(13){background-image: url("../img/slider/img_13.jpg");}
+.card_ow:nth-child(14), .swiper-slide:nth-child(14){background-image: url("../img/slider/img_14.JPG");}
+.card_ow:nth-child(15), .swiper-slide:nth-child(15){background-image: url("../img/slider/img_15.jpg");}
+.card_ow:nth-child(16), .swiper-slide:nth-child(16){background-image: url("../img/slider/img_16.jpg");}
+.card_ow:nth-child(17), .swiper-slide:nth-child(17){background-image: url("../img/slider/img_17.jpg");}
+.card_ow:nth-child(18), .swiper-slide:nth-child(18){background-image: url("../img/slider/img_18.jpg");}
+.card_ow:nth-child(19), .swiper-slide:nth-child(19){background-image: url("../img/slider/img_19.jpg");}
+.card_ow:nth-child(20), .swiper-slide:nth-child(20){background-image: url("../img/slider/img_20.jpg");}
+.card_ow:nth-child(21), .swiper-slide:nth-child(21){background-image: url("../img/slider/img_21.jpg");}
+.card_ow:nth-child(22), .swiper-slide:nth-child(22){background-image: url("../img/slider/img_22.jpg");}
+.card_ow:nth-child(23), .swiper-slide:nth-child(23){background-image: url("../img/slider/img_23.jpg");}
+.card_ow:nth-child(24), .swiper-slide:nth-child(24){background-image: url("../img/slider/img_24.jpg");}
+.card_ow:nth-child(25), .swiper-slide:nth-child(25){background-image: url("../img/slider/img_25.jpg");}
+.card_ow:nth-child(26), .swiper-slide:nth-child(26){background-image: url("../img/slider/img_26.jpg");}
+.card_ow:nth-child(27), .swiper-slide:nth-child(27){background-image: url("../img/slider/img_27.jpg");}
 
-
+.card_ba:nth-of-type(1){background-image: url("../img/slider/img_27.jpg");}
+.card_ba:nth-of-type(1){background-image: url("../img/slider/img_27.jpg");}
+.card_ba:nth-of-type(1){background-image: url("../img/slider/img_27.jpg");}
 
 
 .swiper-container-2 .swiper-wrapper .swiper-slide{
@@ -1116,7 +1122,7 @@ h5 {
 }
 
 .before_after-block div:nth-of-type(1) {
-    width: 360px;
+    width: 350px;
 }
 
 .before_after-block ul {
@@ -1132,9 +1138,18 @@ h5 {
     align-items: start;
     font-size: 20px;
 }
-
+.card_ow{
+    background-size: cover;
+    width: 392px;
+    height: 500px;
+    border-radius: 10px;
+    padding-top: 28px;
+    padding-left: 18px;
+    transition: .3s;
+    position: relative;
+    z-index: 1;
+}
 .card_ba {
-    background: url("../img/balcony-1.jpg") no-repeat;
     background-size: cover;
     width: 392px;
     height: 500px;
@@ -1146,6 +1161,13 @@ h5 {
     z-index: 1;
 }
 
+.card_ow span{
+    background: #FCCF3C;
+    padding: 8px 8px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
 .card_ba span {
     background: #FCCF3C;
     padding: 8px 8px;

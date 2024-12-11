@@ -9,6 +9,62 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+
+<div id="myModal" class="modal">
+
+    <div class="modal-content">
+        <div class="modal-img">
+
+        </div>
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <form action="">
+                <h3>Один звонок до балкона вашей мечты </h3>
+                <p>Для получения бесплатного замера оставьте онлайн заявку и мы перезвоним вам в ближайшее время!</p>
+                <div class="input-fields">
+                    <input type="text" name="name" required="" placeholder="Введите имя">
+                    <input type="tel" name="phone" required="" placeholder="Введите номер телефона">
+
+                    <div class="black-btn">
+                        <button type="submit">Отправить заявку</button>
+                    </div>
+                    <span>Нажимая на кнопку, я соглашаюсь с условиями <a href="#">политики конфиденциальности</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal" id="vacancyModal">
+    <div class="modal-content">
+        <div class="vacancy">
+            <span class="close">&times;</span>
+            <form action="">
+                <h3><b class="yellow_back"> Работа </b> в OKNOBALKON </h3>
+                <h5>Мы постоянно растем и расширяемся, поэтому нам нужны новые кадры </h5>
+                <p>Готовы предоставить самые лучшие условия, оказать помощь в карьерном росте и заработке. Если вы
+                    квалифицированный специалист по установке окон ПВХ, алюминиевых рам, или вы мастер по отделке
+                    балконов — мы всегда рассмотрим вашу вакансию.</p>
+                <p>А может вы просто умеете держать перфоратор в руках и желаете стать мастером — можем предложить вам
+                    обучение.</p>
+                <h5>Отправьте заявку и мы свяжемся с вами в ближайшее время!</h5>
+                <div class="input-fields-vacancy">
+
+                    <input type="text" name="name" required="" placeholder="Введите имя">
+                    <input type="tel" name="phone" required="" placeholder="Введите номер телефона">
+
+                    <div class="black-btn">
+                        <button type="submit">Отправить заявку</button>
+                    </div>
+                </div>
+                <div>
+                    <span>Нажимая на кнопку, я соглашаюсь с условиями <a class="border" href="#">политики конфиденциальности</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
 <div class="header container">
     <a href="/balcony/index.html"><span class="logo"><img src="img/logo.png" alt=""></span></a>
     <ul>
@@ -49,7 +105,7 @@
 </div>
 <div class="options container">
     <ul>
-        <li><a href="/balcony/our-works.html">Все работы</a></li>
+        <li class="type-work"><a href="/balcony/our-works.html">Все работы</a></li>
         <li><a href="/balcony/our-works-2.html">До — После</a></li>
         <li><a href="/balcony/our-works-3.html">Процесс</a></li>
         <li><a href="/balcony/our-works-4.html">Обзоры балконов</a></li>
@@ -65,7 +121,7 @@
 </div>
 <div class="our_works container">
     <div class="examples_cards">
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Теплое остекление</li>
@@ -76,7 +132,7 @@
                 <li>Рольшторы</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Обшивка вагонкой</li>
@@ -87,7 +143,7 @@
                 <li>Потолок из ПВХ панелей</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Теплое остекление</li>
@@ -98,7 +154,7 @@
                 <li>Рольшторы</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Обшили балкон ПВХ панелями</li>
@@ -109,7 +165,7 @@
                 <li>Установили тумбу с полками</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Отделка ламинатом и камнем</li>
@@ -120,7 +176,7 @@
                 <li>Устройство теплого пола</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Укрепили ограждения балкона</li>
@@ -131,7 +187,7 @@
                 <li>Установили рольшторы</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Установка пластиковой рамы</li>
@@ -142,7 +198,7 @@
 
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Теплое остекление</li>
@@ -153,7 +209,7 @@
                 <li>Рольшторы</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Теплое остекление рамой ПВХ</li>
@@ -164,7 +220,7 @@
                 <li>Установка премиум подоконника</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li> Установка пластиковой рамы</li>
@@ -175,14 +231,14 @@
                 <li>Обшивка потолка ПВХ панелями</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Алюминиевая рама</li>
                 <li>Наружная отделка виниловым сайдингом</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li> Установили алюминиевую раму с тонированными стеклами</li>
@@ -190,7 +246,7 @@
                 <li> Выполнили наружную отделку профильным оцинкованным листом</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li> Установили раму ПВХ и балконную группу</li>
@@ -198,7 +254,7 @@
                 <li> Постелили ламинат 33 класса</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Установка алюминиевой рамы в пол с матовыми стеклами</li>
@@ -207,14 +263,14 @@
                 <li>Подшили потолок и заднюю стенку балкона</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Установили алюминиевую раздвижную раму в пол</li>
                 <li> Смонтировали крышу мягкую кровлю на деревянном каркасе</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>
@@ -223,7 +279,7 @@
 
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>
@@ -232,7 +288,7 @@
 
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li> Установка рамы ПВХ</li>
@@ -245,7 +301,7 @@
 
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li> Установили теплую раму ПВХ</li>
@@ -256,7 +312,7 @@
                 <li> Покрыли вагонку лаком по дереву</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
 
@@ -270,7 +326,7 @@
 
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Установили пластиковую раму и балконную группу из профиля KBE</li>
@@ -281,7 +337,7 @@
                 <li>Сидушка с откидным верхом</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Выполнили теплое остекление пластиковой рамой</li>
@@ -289,7 +345,7 @@
                 <li>Выполнили покраску</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Утеплили стены по типу THERMOS</li>
@@ -300,7 +356,7 @@
                 <li>Постелили линолеум 33 класса</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
 
@@ -314,7 +370,7 @@
 
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Укрепили ограждения балкона</li>
@@ -325,7 +381,7 @@
                 <li>Установили рольшторы</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Комбинированная отделка ламинатом и декоративным камнем</li>
@@ -336,7 +392,7 @@
                 <li>Устройство теплого пола</li>
             </ul>
         </div>
-        <div class="card card_ba">
+        <div class="card card_ow">
             <span>Отделка балкона под ключ</span>
             <ul>
                 <li>Установили сидушку с откидным верхом из массива дерева</li>
