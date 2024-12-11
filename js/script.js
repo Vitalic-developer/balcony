@@ -141,8 +141,41 @@ document.querySelectorAll('.process_card').forEach((card, index) => {
 });
 
 
+function showMoreBlocks(blockSelector, buttonSelector, initialVisibleCount, blocksToShow) {
+    const blocks = document.querySelectorAll(blockSelector);
+    const showMoreButton = document.querySelector(buttonSelector);
+    let visibleBlocks = initialVisibleCount;
 
+    // Скрываем все блоки, кроме первых initialVisibleCount
+    blocks.forEach((block, index) => {
+        if (index >= visibleBlocks) {
+            block.style.display = 'none';
+        }
+    });
 
+    // Обработчик клика на кнопку "Показать больше"
+    showMoreButton.addEventListener('click', function() {
+        for (let i = visibleBlocks; i < visibleBlocks + blocksToShow; i++) {
+            if (blocks[i]) {
+                blocks[i].style.display = 'flex'; // Показываем следующие blocksToShow блоков
+            }
+        }
+        visibleBlocks += blocksToShow; // Увеличиваем счетчик видимых блоков
+
+        // Если все блоки уже показаны, скрываем кнопку "Показать больше"
+        if (visibleBlocks >= blocks.length) {
+            showMoreButton.style.display = 'none';
+        }
+    });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Для блоков с классом .card_ow показываем по 9 блоков за раз
+    showMoreBlocks('.card_ow', '.see_all button', 3, 9);
+
+    // Для блоков с классом .before_after-block показываем по 3 блока за раз
+    showMoreBlocks('.before_after-block', '.see_all button', 3, 3);
+});
 
 
 
