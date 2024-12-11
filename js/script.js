@@ -141,12 +141,12 @@ document.querySelectorAll('.process_card').forEach((card, index) => {
 });
 
 
-function showMoreBlocks(blockSelector, buttonSelector, initialVisibleCount, blocksToShow) {
-    const blocks = document.querySelectorAll(blockSelector);
-    const showMoreButton = document.querySelector(buttonSelector);
-    let visibleBlocks = initialVisibleCount;
+document.addEventListener("DOMContentLoaded", function() {
+    const blocks = document.querySelectorAll('.before_after-block');
+    const showMoreButton = document.querySelector('.see_all button');
+    let visibleBlocks = 3; // Количество видимых блоков изначально
 
-    // Скрываем все блоки, кроме первых initialVisibleCount
+    // Скрываем все блоки, кроме первых трех
     blocks.forEach((block, index) => {
         if (index >= visibleBlocks) {
             block.style.display = 'none';
@@ -155,27 +155,15 @@ function showMoreBlocks(blockSelector, buttonSelector, initialVisibleCount, bloc
 
     // Обработчик клика на кнопку "Показать больше"
     showMoreButton.addEventListener('click', function() {
-        for (let i = visibleBlocks; i < visibleBlocks + blocksToShow; i++) {
+        for (let i = visibleBlocks; i < visibleBlocks + 3; i++) {
             if (blocks[i]) {
-                blocks[i].style.display = 'flex'; // Показываем следующие blocksToShow блоков
+                blocks[i].style.display = 'flex'; // Показываем следующие три блока
             }
         }
-        visibleBlocks += blocksToShow; // Увеличиваем счетчик видимых блоков
-
-        // Если все блоки уже показаны, скрываем кнопку "Показать больше"
-        if (visibleBlocks >= blocks.length) {
-            showMoreButton.style.display = 'none';
-        }
+        visibleBlocks += 3; // Увеличиваем счетчик видимых блоков
     });
-}
-
-document.addEventListener("DOMContentLoaded", function() {
-    // Для блоков с классом .card_ow показываем по 9 блоков за раз
-    showMoreBlocks('.card_ow', '.see_all button', 3, 9);
-
-    // Для блоков с классом .before_after-block показываем по 3 блока за раз
-    showMoreBlocks('.before_after-block', '.see_all button', 3, 3);
 });
+
 
 
 
