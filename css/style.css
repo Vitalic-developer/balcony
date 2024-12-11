@@ -940,10 +940,6 @@ h5 {
 .card_ow:nth-child(26), .swiper-slide:nth-child(26){background-image: url("../img/slider/img_26.jpg");}
 .card_ow:nth-child(27), .swiper-slide:nth-child(27){background-image: url("../img/slider/img_27.jpg");}
 
-.card_ba:nth-of-type(1){background-image: url("../img/slider/img_27.jpg");}
-.card_ba:nth-of-type(1){background-image: url("../img/slider/img_27.jpg");}
-.card_ba:nth-of-type(1){background-image: url("../img/slider/img_27.jpg");}
-
 
 .swiper-container-2 .swiper-wrapper .swiper-slide{
     background-size: contain;
@@ -1327,7 +1323,7 @@ h5 {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -1362,7 +1358,8 @@ h5 {
 
 .vacancy{
     padding: 30px;
-    background: #FFEDB3;
+    background: #FFEDB3 url("../img/vacancy-img.png") no-repeat 770px 130px;
+    background-size: 230px;
     border-radius: 10px;
 }
 
@@ -1373,6 +1370,7 @@ h5 {
 .vacancy p{
     padding-bottom: 10px;
     font-size: 20px;
+    padding-right: 180px;
 }
 .input-fields-vacancy{
     display: flex;
@@ -1390,7 +1388,7 @@ h5 {
 .input-fields-vacancy button{
     width: 290px;
 }
-.vacancy div{
+.confedentional{
     text-align: center;
 }
 .border{

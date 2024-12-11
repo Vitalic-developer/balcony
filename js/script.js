@@ -40,11 +40,11 @@ document.addEventListener('DOMContentLoaded', function () {
 //slider
 document.addEventListener('DOMContentLoaded', function () {
     let swiper = new Swiper('.swiper-container', {
-        slidesPerView: '5', // Количество слайдов на экране
+        slidesPerView: '5', //
         spaceBetween: 20, // Расстояние между слайдами
-        loop: true, // Бесконечный цикл
+        loop: true, //
         autoplay: {
-            delay: 3500, // Автопрокрутка с задержкой в 2.5 секунды
+            delay: 3500, //
             disableOnInteraction: false, // Не останавливать автопрокрутку при взаимодействии
         },
     });

@@ -7,6 +7,13 @@
     .modal-img{
         width: 310px;
     }
+    .input-fields-vacancy input{
+        width: 280px;
+    }
+    .vacancy{
+        background: #FFEDB3 url(../img/vacancy-img.png) no-repeat 750px 140px;
+        background-size: 200px;
+    }
 }
 @media (max-width: 960px){
     .modal{
@@ -66,6 +73,45 @@
         border-bottom: none;
     }
 
+    .input-fields-vacancy{
+
+        row-gap: 10px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .vacancy h3{
+        font-size: 40px;
+    }
+    .vacancy h5{
+        font-size: 20px;
+    }
+    .vacancy p{
+        font-size: 17px;
+    }
+    .input-fields-vacancy input {
+        width: 100%;
+        height: 50px;
+    }
+    .vacancy .black-btn{
+        width: 100%;
+    }
+    .input-fields-vacancy button{
+        width: 100%;
+    }
+    .vacancy {
+        background: #FFEDB3 url(../img/vacancy-img.png) no-repeat 420px 230px;
+        background-size: 180px;
+    }
+    .vacancy p:first-of-type{padding-right: 0}
+    .vacancy p:last-of-type{
+        padding-right: 100px;
+        padding-bottom: 0;
+    }
+    .vacancy h5:nth-of-type(2){
+        width: 400px;
+    }
+
+
 }
 @media (max-width: 768px){
     .modal-content {
@@ -85,6 +131,29 @@
         padding-bottom: 20px;
         padding-right: 10px;
     }
+    .vacancy h3 {
+        font-size: 36px;
+    }
+    .vacancy h5 {
+        font-size: 18px;
+    }
+    .vacancy p {
+        font-size: 16px;
+    }
+    .vacancy {
+        background: #FFEDB3 url(../img/vacancy-img.png) no-repeat 300px 350px;
+        background-size: 140px;
+        padding: 20px;
+    }
+    .vacancy p:last-of-type {
+        padding-right: 20px;
+    }
+    .vacancy h5:nth-of-type(2) {
+        padding-bottom: 65px;
+        width: 300px;
+    }
+
+
 }
 @media (max-width: 500px){
     .modal-content {
@@ -102,7 +171,23 @@
         right: 10px;
         top: 0;
     }
+    .vacancy{
+        background: #FFEDB3 url(../img/vacancy-img.png) no-repeat 240px 280px;
+        background-size: 100px;
+    }
+    .vacancy h3 {
+        font-size: 24px;
+    }
+    .vacancy h5 {
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .vacancy h5:nth-of-type(2) {
+        padding-bottom: 0;
+        width: 270px;
+    }
 }
+
 
 
 
@@ -1086,6 +1171,8 @@
         width: 100%;
         height: 100%;
     }
+
+
 
 
 }
