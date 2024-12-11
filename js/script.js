@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
+//до после
 document.querySelectorAll('.before_after-block').forEach((block, blockIndex) => {
     const cards = block.querySelectorAll('.card_ba');
 
@@ -133,6 +133,13 @@ document.querySelectorAll('.before_after-block').forEach((block, blockIndex) => 
         card.style.backgroundImage = `url('img/before-after/${imageType}-${blockIndex + 1}.jpg')`;
     });
 });
+
+//шаги
+document.querySelectorAll('.process_card').forEach((card, index) => {
+    const cardBa = card.querySelector('.card_ba');
+    cardBa.style.backgroundImage = `url('img/step/step-${index + 1}.jpg')`;
+});
+
 
 
 
