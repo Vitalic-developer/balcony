@@ -177,7 +177,40 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+// Получаем все видео с классом video_card_vid
+const videoCards = document.querySelectorAll('.video_card_vid');
 
+// Получаем модальное окно и его элементы
+const modal = document.querySelector('.modal_vid');
+const modalVideo = document.querySelector('.modal_video_vid');
+const closeBtn = document.querySelector('.close_vid');
+
+// Добавляем обработчик клика для каждого видео
+videoCards.forEach(video => {
+    video.addEventListener('click', () => {
+        // Устанавливаем src для видео в модальном окне
+        modalVideo.querySelector('source').src = video.querySelector('source').src;
+        modalVideo.load(); // Перезагружаем видео
+        modal.style.display = 'block'; // Показываем модальное окно
+        modalVideo.play(); // Автовоспроизведение видео
+    });
+});
+
+// Закрытие модального окна по клику на крестик
+closeBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+    modalVideo.pause(); // Останавливаем видео
+    modalVideo.currentTime = 0; // Сбрасываем время воспроизведения
+});
+
+// Закрытие модального окна по клику вне его области
+window.addEventListener('click', (event) => {
+    if (event.target === modal) {
+        modal.style.display = 'none';
+        modalVideo.pause(); // Останавливаем видео
+        modalVideo.currentTime = 0; // Сбрасываем время воспроизведения
+    }
+});
 
 
 

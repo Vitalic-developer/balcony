@@ -1650,7 +1650,46 @@ h5 {
 
 
 
+.modal_vid {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Поверх всего */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Включить прокрутку, если нужно */
+    background-color: rgba(0, 0, 0, 0.9); /* Черный с непрозрачностью */
+}
 
+.modal_content_vid {
+    margin: 45px auto 0;
+    display: block;
+    width: 450px;
+}
+
+.modal_video_vid {
+    width: 100%;
+    height: auto;
+}
+
+.close_vid {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.close_vid:hover,
+.close_vid:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 
