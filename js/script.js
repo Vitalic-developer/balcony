@@ -164,8 +164,29 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+//our-works
+document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.card_ow');
+    const showMoreBtn = document.getElementById('show_more_btn');
+    let visibleCards = 9; // Количество видимых карточек по умолчанию
 
+    // Показываем первые 9 карточек
+    for (let i = 0; i < visibleCards; i++) {
+        if (cards[i]) {
+            cards[i].style.display = 'block';
+        }
+    }
 
+    // Обработчик клика на кнопку "Показать больше"
+    showMoreBtn.addEventListener('click', function() {
+        for (let i = visibleCards; i < visibleCards + 9; i++) {
+            if (cards[i]) {
+                cards[i].style.display = 'block';
+            }
+        }
+        visibleCards += 9;
+    });
+});
 
 
 

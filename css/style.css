@@ -944,7 +944,7 @@ h5 {
 
 
 .swiper-container-2 .swiper-wrapper .swiper-slide{
-    background-size: contain;
+    background-size: cover;
     border-radius: 10px;
 }
 
@@ -1158,6 +1158,9 @@ h5 {
     transition: .3s;
     position: relative;
     z-index: 1;
+}
+.card_ow {
+    display: none;
 }
 
 .card_ow span{
