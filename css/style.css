@@ -1209,6 +1209,9 @@ h5 {
     flex-wrap: wrap;
     row-gap: 20px;
 }
+.reveal-2 {
+    display: none;
+}
 
 
 

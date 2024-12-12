@@ -143,85 +143,116 @@ document.querySelectorAll('.process_card').forEach((card, index) => {
 
 
 
-//before-after
-document.addEventListener("DOMContentLoaded", function() {
-    const blocks = document.querySelectorAll('.reveal-2');
-    const showMoreButton = document.querySelector('.see_all button');
-    let visibleBlocks = 3; // Количество видимых блоков изначально
+// //before-after
+// document.addEventListener("DOMContentLoaded", function() {
+//     const blocks = document.querySelectorAll('.reveal-2');
+//     const showMoreButton = document.querySelector('.see_all button');
+//     let visibleBlocks = 3; // Количество видимых блоков изначально
+//
+//     // Скрываем все блоки, кроме первых трех
+//     blocks.forEach((block, index) => {
+//         if (index >= visibleBlocks) {
+//             block.style.display = 'none';
+//         }
+//     });
+//
+//     // Обработчик клика на кнопку "Показать больше"
+//     showMoreButton.addEventListener('click', function() {
+//         for (let i = visibleBlocks; i < visibleBlocks + 3; i++) {
+//             if (blocks[i]) {
+//                 blocks[i].style.display = 'flex'; // Показываем следующие три блока
+//             }
+//         }
+//         visibleBlocks += 3; // Увеличиваем счетчик видимых блоков
+//     });
+// });
+//
+// //our-works
+// document.addEventListener('DOMContentLoaded', function() {
+//     const cards = document.querySelectorAll('.reveal');
+//     const showMoreBtn = document.querySelector('.see_all button');
+//     let visibleCards = 9; // Количество видимых карточек по умолчанию
+//     for (let i = 0; i < visibleCards; i++) {
+//         if (cards[i]) {
+//             cards[i].style.display = 'block';
+//         }
+//     }
+//     // Обработчик клика на кнопку "Показать больше"
+//     showMoreBtn.addEventListener('click', function() {
+//         for (let i = visibleCards; i < visibleCards + 9; i++) {
+//             if (cards[i]) {
+//                 cards[i].style.display = 'block';
+//             }
+//         }
+//         visibleCards += 9;
+//     });
+// });
+//
+// //our-works-4
+// document.addEventListener('DOMContentLoaded', function () {
+//     const videos = document.querySelectorAll('.video_card');
+//     const showMoreBtn = document.querySelector('.see_all button');
+//     let visibleVideos = 3; // Количество видимых видео по умолчанию
+//
+//     // Скрываем все видео
+//     videos.forEach(video => {
+//         video.style.display = 'none';
+//     });
+//
+//     // Показываем первые 3 видео
+//     for (let i = 0; i < visibleVideos; i++) {
+//         if (videos[i]) {
+//             videos[i].style.display = 'block';
+//         }
+//     }
+//
+//     // Обработчик клика на кнопку "Показать больше"
+//     showMoreBtn.addEventListener('click', function () {
+//         // Показываем следующие 3 видео
+//         let endIndex = visibleVideos + 3; // Конец диапазона для отображения
+//         for (let i = visibleVideos; i < endIndex; i++) {
+//             if (videos[i]) {
+//                 videos[i].style.display = 'block';
+//             }
+//         }
+//         visibleVideos = endIndex; // Обновляем количество видимых видео
+//     });
+// });
 
-    // Скрываем все блоки, кроме первых трех
-    blocks.forEach((block, index) => {
-        if (index >= visibleBlocks) {
-            block.style.display = 'none';
-        }
-    });
 
-    // Обработчик клика на кнопку "Показать больше"
-    showMoreButton.addEventListener('click', function() {
-        for (let i = visibleBlocks; i < visibleBlocks + 3; i++) {
-            if (blocks[i]) {
-                blocks[i].style.display = 'flex'; // Показываем следующие три блока
-            }
-        }
-        visibleBlocks += 3; // Увеличиваем счетчик видимых блоков
-    });
-});
 
-//our-works
-document.addEventListener('DOMContentLoaded', function() {
-    const cards = document.querySelectorAll('.reveal');
-    const showMoreBtn = document.querySelector('.see_all button');
-    let visibleCards = 9; // Количество видимых карточек по умолчанию
 
-    // Показываем первые 9 карточек
-    for (let i = 0; i < visibleCards; i++) {
-        if (cards[i]) {
-            cards[i].style.display = 'block';
-        }
-    }
-
-    // Обработчик клика на кнопку "Показать больше"
-    showMoreBtn.addEventListener('click', function() {
-        for (let i = visibleCards; i < visibleCards + 9; i++) {
-            if (cards[i]) {
-                cards[i].style.display = 'block';
-            }
-        }
-        visibleCards += 9;
-    });
-});
-
-//our-works-4
 document.addEventListener('DOMContentLoaded', function () {
-    const videos = document.querySelectorAll('.video_card');
-    const showMoreBtn = document.querySelector('.see_all button');
-    let visibleVideos = 3; // Количество видимых видео по умолчанию
+    const sections = [
+        { selector: '.reveal-2', visibleCount: 3, displayStyle: 'flex' }, // Используем flex для .reveal-2
+        { selector: '.reveal', visibleCount: 9, displayStyle: 'block' }, // Используем block для .reveal
+        { selector: '.video_card', visibleCount: 3, displayStyle: 'block' } // Используем block для .video_card
+    ];
 
-    // Скрываем все видео
-    videos.forEach(video => {
-        video.style.display = 'none';
-    });
+    const showMoreButton = document.querySelector('.see_all button');
 
-    // Показываем первые 3 видео
-    for (let i = 0; i < visibleVideos; i++) {
-        if (videos[i]) {
-            videos[i].style.display = 'block';
-        }
-    }
+    sections.forEach(({ selector, visibleCount, displayStyle }) => {
+        const items = document.querySelectorAll(selector);
+        let visibleItems = visibleCount;
 
-    // Обработчик клика на кнопку "Показать больше"
-    showMoreBtn.addEventListener('click', function () {
-        // Показываем следующие 3 видео
-        let endIndex = visibleVideos + 3; // Конец диапазона для отображения
-        for (let i = visibleVideos; i < endIndex; i++) {
-            if (videos[i]) {
-                videos[i].style.display = 'block';
+        // Показываем первые visibleCount элементов
+        for (let i = 0; i < visibleItems; i++) {
+            if (items[i]) {
+                items[i].style.display = displayStyle; // Устанавливаем displayStyle (flex или block)
             }
         }
-        visibleVideos = endIndex; // Обновляем количество видимых видео
+
+        // Обработчик клика на кнопку "Показать больше"
+        showMoreButton.addEventListener('click', function () {
+            for (let i = visibleItems; i < visibleItems + visibleCount; i++) {
+                if (items[i]) {
+                    items[i].style.display = displayStyle; // Устанавливаем displayStyle (flex или block)
+                }
+            }
+            visibleItems += visibleCount;
+        });
     });
 });
-
 
 
 
