@@ -58,7 +58,7 @@
     .header ul.active {
         display: block;
         position: absolute;
-        top: 70px;
+        top: 100px;
         left: 0;
         width: 100%;
         background-color: #fffaea;
@@ -1211,6 +1211,19 @@
     .burger,
     .header_phone-btn-adapt button {
         width: 26px;
+    }
+    .header.container {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        width: 100%;
+        background: #ffffff;
+        height: 100px;
+        padding: 20px;
+        box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.2);
+    }
+    .main_block{
+        margin-top: 150px;
     }
 
     .main_block h1 {
