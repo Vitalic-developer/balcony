@@ -409,9 +409,7 @@
         width: 450px;
         height: 475px;
     }
-    .video_cards-fields .video_card:last-of-type{
-        display: block;
-    }
+
     .video_cards-fields .video_card video{
         width: 450px;
         height: 608px;
@@ -690,9 +688,7 @@
     .process p{
         font-size: 18px;
     }
-    .video_cards-fields .video_card:last-of-type{
-        display: none;
-    }
+
     .video_cards-fields .video_card video{
         width: 228px;
         height: 380px;

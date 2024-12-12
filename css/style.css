@@ -1199,17 +1199,18 @@ h5 {
 .process_card .card_ba {
     margin-bottom: 10px;
 }
-
+.video_card {
+    display: none;
+}
 .video_cards-fields {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    column-gap: 20px;
     flex-wrap: wrap;
     row-gap: 20px;
 }
 
-.video_cards-fields .video_card:last-of-type {
-    display: none;
-}
+
 
 .video_cards-fields .video_card video {
     width: 390px;
