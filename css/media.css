@@ -65,6 +65,7 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         z-index: 1000;
         transition: transform 0.3s ease;
+        height: 100vh;
     }
 
     .header ul.active li {
@@ -113,6 +114,14 @@
     .vacancy h5:nth-of-type(2){
         width: 400px;
     }
+    .modal-thanks .modal-content{
+
+        padding: 140px 0;
+
+    }
+    .modal-thanks .p-big{
+        font-size: 16px;
+    }
 
 
 }
@@ -155,6 +164,10 @@
         padding-bottom: 65px;
         width: 300px;
     }
+    .modal-thanks .modal-content{
+        padding: 140px 40px;
+
+    }
 
 
 }
@@ -189,6 +202,10 @@
         padding-bottom: 0;
         width: 270px;
     }
+    .modal-thanks .modal-content{
+        padding: 100px 20px;
+
+    }
 
 }
 
@@ -208,7 +225,7 @@
         width: 140px;
     }
 
-    .header_phone-btn button {
+    .header_phone-btn a {
         font-size: 20px;
     }
     .header ul{
@@ -1193,6 +1210,7 @@
 
     h1 {
         font-size: 30px;
+        margin-top: 130px;
     }
     h3{
         font-size: 24px;
@@ -1223,18 +1241,13 @@
         box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.2);
     }
     .main_block{
-        margin-top: 150px;
+        padding-bottom: 30px;
     }
 
     .main_block h1 {
         width: 100%;
     }
 
-
-
-    .main_block {
-        padding-bottom: 30px;
-    }
 
     .main_block h4 {
         font-size: 18px;
@@ -1406,6 +1419,9 @@
     .video_cards-fields .video_card video{
         width: 320px;
         height: 420px;
+    }
+    .offers{
+        margin-top: 130px;
     }
     .offers_img li{
         width: 150px;
