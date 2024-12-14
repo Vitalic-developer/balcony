@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let initialSlide = 0;
 
     if (currentPage === 'balcony/finishing-of-balconies.html') {
-        initialSlide = 0; //
+        initialSlide = 1; //
     } else if (currentPage === '/balcony/windows-frames.html') {
         initialSlide = 3; //
     } else if (currentPage === '/balcony/window-repair.html') {
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
     } else if (currentPage === '/balcony/furniture-balconies.html') {
         initialSlide = 9; //
     } else if (currentPage === '/balcony/roller%20-blinds.html') {
-        initialSlide = 6; //
+        initialSlide = 12; //
     }
 
     let swiper = new Swiper('.swiper-container-2', {
