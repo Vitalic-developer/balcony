@@ -50,9 +50,25 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 document.addEventListener('DOMContentLoaded', function () {
+    const currentPage = window.location.pathname;
+    let initialSlide = 0;
+
+    if (currentPage === 'balcony/finishing-of-balconies.html') {
+        initialSlide = 0; //
+    } else if (currentPage === '/balcony/windows-frames.html') {
+        initialSlide = 3; //
+    } else if (currentPage === '/balcony/window-repair.html') {
+        initialSlide = 6; //
+    } else if (currentPage === '/balcony/furniture-balconies.html') {
+        initialSlide = 9; //
+    } else if (currentPage === '/balcony/roller%20-blinds.html') {
+        initialSlide = 6; //
+    }
+
     let swiper = new Swiper('.swiper-container-2', {
-        slidesPerView: '4', // Количество слайдов на экране по умолчанию
-        spaceBetween: 20, // Расстояние между слайдами
+        initialSlide: initialSlide,
+        slidesPerView: '4',
+        spaceBetween: 20,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -71,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
+//menu
 document.addEventListener('DOMContentLoaded', function () {
     var dropdownBtn = document.getElementById("dropdownBtn");
     var dropdownContent = document.getElementById("myDropdown");
@@ -177,15 +193,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-// Получаем все видео с классом video_card_vid
+
 const videoCards = document.querySelectorAll('.video_card_vid');
 
-// Получаем модальное окно и его элементы
+const videoLinks = document.querySelectorAll('a[data-video]');
+
 const modal = document.querySelector('.modal_vid');
 const modalVideo = document.querySelector('.modal_video_vid');
 const closeBtn = document.querySelector('.close_vid');
 
-// Добавляем обработчик клика для каждого видео
 videoCards.forEach(video => {
     video.addEventListener('click', () => {
         // Устанавливаем src для видео в модальном окне
@@ -196,19 +212,34 @@ videoCards.forEach(video => {
     });
 });
 
+videoLinks.forEach(link => {
+    link.addEventListener('click', (event) => {
+        event.preventDefault(); // Предотвращаем переход по ссылке
+
+        // Получаем путь к видео из атрибута data-video
+        const videoSrc = link.getAttribute('data-video');
+
+        // Устанавливаем src для видео в модальном окне
+        modalVideo.querySelector('source').src = videoSrc;
+        modalVideo.load(); // Перезагружаем видео
+        modal.style.display = 'block'; // Показываем модальное окно
+        modalVideo.play(); // Автовоспроизведение видео
+    });
+});
+
 // Закрытие модального окна по клику на крестик
 closeBtn.addEventListener('click', () => {
     modal.style.display = 'none';
-    modalVideo.pause(); // Останавливаем видео
-    modalVideo.currentTime = 0; // Сбрасываем время воспроизведения
+    modalVideo.pause(); //
+    modalVideo.currentTime = 0; //
 });
 
-// Закрытие модального окна по клику вне его области
+
 window.addEventListener('click', (event) => {
     if (event.target === modal) {
         modal.style.display = 'none';
-        modalVideo.pause(); // Останавливаем видео
-        modalVideo.currentTime = 0; // Сбрасываем время воспроизведения
+        modalVideo.pause(); //
+        modalVideo.currentTime = 0; //
     }
 });
 

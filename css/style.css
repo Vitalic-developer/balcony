@@ -20,7 +20,6 @@ body {
     width: 100%;
     height: auto;
     position: absolute;
-    top: -100px;
     left: 0;
 }
 
@@ -1673,7 +1672,7 @@ h5 {
 .modal_vid {
     display: none; /* Скрыто по умолчанию */
     position: fixed; /* Оставаться на месте */
-    z-index: 1; /* Поверх всего */
+    z-index: 2; /* Поверх всего */
     left: 0;
     top: 0;
     width: 100%;
@@ -1686,6 +1685,7 @@ h5 {
     margin: 45px auto 0;
     display: block;
     width: 450px;
+    position: relative;
 }
 
 .modal_video_vid {
@@ -1695,8 +1695,8 @@ h5 {
 
 .close_vid {
     position: absolute;
-    top: 15px;
-    right: 35px;
+    top: -15px;
+    right: -35px;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;

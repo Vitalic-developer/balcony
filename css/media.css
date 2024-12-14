@@ -206,6 +206,15 @@
         padding: 100px 20px;
 
     }
+    .modal_content_vid{
+        margin: 165px auto 0;
+        width: 320px;
+        z-index: 100;
+    }
+    .close_vid{
+        top: -55px;
+        right: 5px;
+    }
 
 }
 
@@ -1027,6 +1036,38 @@
 
     .finishing_block-adapt {
         background: url(../img/finishing.jpg) no-repeat;
+        width: 440px;
+        height: 460px;
+        background-size: cover;
+        border-radius: 8px;
+        margin-bottom: 50px;
+    }
+    .window-frames_block-adapt{
+        background: url(../img/windows-frames/image.jpg) no-repeat;
+        width: 440px;
+        height: 460px;
+        background-size: cover;
+        border-radius: 8px;
+        margin-bottom: 50px;
+    }
+    .repair_block-adapt{
+        background: url(../img/window-repair/main-image.jpg) no-repeat;
+        width: 440px;
+        height: 460px;
+        background-size: cover;
+        border-radius: 8px;
+        margin-bottom: 50px;
+    }
+    .furniture_block-adapt{
+        background: url(../img/furniture-balconies/main-image.jpg) no-repeat;
+        width: 440px;
+        height: 460px;
+        background-size: cover;
+        border-radius: 8px;
+        margin-bottom: 50px;
+    }
+    .roller_block-adapt{
+        background: url(../img/roller-blinds/main-image.jpg) no-repeat;
         width: 440px;
         height: 460px;
         background-size: cover;
