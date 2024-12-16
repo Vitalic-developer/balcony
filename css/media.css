@@ -175,6 +175,7 @@
 @media (max-width: 500px){
     .modal-content {
         width: 340px;
+        top: 100px;
     }
     .modal-header{
         width: 340px;
