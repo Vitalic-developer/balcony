@@ -169,6 +169,7 @@
         padding: 140px 40px;
 
     }
+    .type-work
 
 
 }
@@ -1328,7 +1329,8 @@
 
     .service_block ul li {
         width: 100%;
-        height: 120px;
+        height: auto;
+        padding: 20px;
     }
 
     .our_services-windows {
