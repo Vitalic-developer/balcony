@@ -1289,7 +1289,13 @@ h5 {
     margin-top: 80px;
     font-size: 20px;
     font-weight: 500;
+    transition: .2s;
 }
+.consultation:hover{
+    background-color: #ffde73;
+    transition: .2s;
+}
+
 
 .quality {
     margin-top: 100px;
@@ -1329,8 +1335,12 @@ h5 {
     background-color: #000000;
     color: #ffffff;
     border-radius: 10px;
+    transition: .2s;
 }
-
+.location button:hover{
+    transition: .2s;
+    color: #FCCF3C;
+}
 .location h4 {
     padding-bottom: 5px;
 }
