@@ -1102,6 +1102,12 @@ h5 {
     padding: 15px 60px;
     border: 1px solid #000000;
     border-radius: 15px;
+    transition: .2s;
+}
+.see_all button:hover{
+    transition: .2s;
+    background-color: #FCCF3C;
+    border: 1px solid #FCCF3C;
 }
 
 .before_after {
