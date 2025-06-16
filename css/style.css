@@ -807,6 +807,8 @@ h5 {
 .execution ul li:nth-child(11) {background: #ffffff url("../img/finishing-of-balconies/wires.jpg") no-repeat right top;}
 .execution ul li:nth-child(12) {background: #ffffff url("../img/finishing-of-balconies/glazing.jpg") no-repeat right top;}
 .execution ul li:nth-child(13) {background: #ffffff url("../img/finishing-of-balconies/warm-glazing.jpg") no-repeat right top;}
+.execution ul li:nth-child(14) {background: #ffffff url("../img/finishing-of-balconies/bird.png") no-repeat right top;}
+.execution ul li:nth-child(15) {background: #ffffff url("../img/finishing-of-balconies/table.png") no-repeat right top;}
 
 .windows-frames{
     .execution ul li:nth-child(2) {background: #ffffff url("../img/windows-frames/image-1 (1).jpg") no-repeat right top;}
@@ -817,6 +819,12 @@ h5 {
     .execution ul li:nth-child(7) {background: #ffffff url("../img/windows-frames/image-6.jpg") no-repeat right top;}
     .execution ul li:nth-child(8) {background: #ffffff url("../img/windows-frames/image-7.jpg") no-repeat right top;}
     .execution ul li:nth-child(9) {background: #ffffff url("../img/windows-frames/image-8.jpg") no-repeat right top;}
+    .execution ul li:nth-child(10) {background: #ffffff url("../img/windows-frames/color.png") no-repeat right top;}
+    .execution ul li:nth-child(11) {background: #ffffff url("../img/windows-frames/danke.png") no-repeat right top;}
+    .execution ul li:nth-child(12) {background: #ffffff url("../img/windows-frames/warm.png") no-repeat right top;}
+    .execution ul li:nth-child(13) {background: #ffffff url("../img/windows-frames/kid.png") no-repeat right top;}
+    .execution ul li:nth-child(14) {background: #ffffff url("../img/windows-frames/climate.png") no-repeat right top;}
+    .execution ul li:nth-child(15) {background: #ffffff url("../img/windows-frames/color.png") no-repeat right top;}
 }
 .windows-repair{
     .execution ul li:nth-child(2) {background: #ffffff url("../img/window-repair/image-1.jpg") no-repeat right top;}
