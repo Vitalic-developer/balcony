@@ -1859,6 +1859,9 @@
         width: 320px;
         height: 380px;
     }
+    .our-advantages h3 {
+        font-size: 24px;
+    }
 
     .models-list div ul li p{
         font-size: 14px;
