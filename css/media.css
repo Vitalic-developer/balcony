@@ -1450,6 +1450,7 @@
 
     .tittle_name {
         margin-bottom: 30px;
+        margin-top: 120px;
     }
 
     .our_works .card {
@@ -1538,6 +1539,11 @@
 @media (max-width: 470px) {
     .container {
         width: 320px;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-top: 130px;
     }
 
     .main_block h1 {
